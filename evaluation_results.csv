@@ -1,0 +1,2984 @@
+config,question,answer,contexts,latency,faithfulness,answer_relevancy,context_precision
+Config 1 - Naive,How do I turn off auto-renew for my domain?,"According to the context provided:
+
+If you can't turn off auto-renew for a domain, it's possible that the domain status is pending updates. Domains must be in active status before you can change the auto-renew setting.
+
+To turn off auto-renew for your domain, you would need to contact GoDaddy Guides for help. They can assist you in determining if your domain is eligible for turning off auto-renew, and guide you through the process.
+
+The context does not provide detailed instructions on how to turn off auto-renew yourself. It suggests contacting customer support for assistance with this task.","Related step
+If you change your mind, you can
+manually renew your product
+.
+More info
+If you can't turn off auto-renew for a domain, it's possible that the domain status is pending updates. Domains must be in active status before you can change the auto-renew setting.
+To find out if you're eligible for a refund, contact
+our GoDaddy Guides
+for help.
+Here's our
+refund policy
+.
+Share this article ||| Manually or automatically pay for your subscriptions
+Turn off auto-renew
+Turn on auto-renew
+Manually renew my products or services
+Manage my billing information
+Add, change and update your payment methods and view your receipts
+Add a payment method to my GoDaddy account
+Change my subscription payment method
+Change my credit card expiration date or billing address
+Delete a payment method
+View my GoDaddy receipts
+Contact customer support ||| Confirm Cancel
+to turn off auto-renew for that subscription.
+Note:
+If you’re canceling a domain with
+Domain Protection
+, we'll need to verify your identity. Select
+Yes, Delete this product
+, then select
+Verify and delete
+. We'll send a verification code via SMS text message or authenticator app if you've had
+2-step verification
+(2SV) enabled in your account for more than 24 hours. Otherwise, select
+Send Password
+to send a
+one-time password
+to the email address on your GoDaddy account.",1.63,0.8,0.8,0.833
+Config 2 - Optimized,How do I turn off auto-renew for my domain?,"Based on the provided context, here are the steps to turn off auto-renew for a domain subscription:
+
+1. Go to your Renewals and Billing page and select Manage Subscriptions.
+
+2. Select the domain product you want to turn off auto-renew for.
+
+3. Select Turn off Auto-Renew.
+
+4. Select a reason for cancelling the auto-renewal and then select Continue to Cancel.
+
+5. Review the confirmation details, which will show the date your subscription will be cancelled. Select Confirm Cancel.
+
+The context indicates that if you are cancelling a domain with Domain Protection, you'll need to verify your identity by entering a verification code sent via SMS or authenticator app, or by entering a one-time password sent to your account email.
+
+Let me know if you need any clarification or have additional questions!","Select
+Confirm Cancel
+to turn off auto-renew for that subscription.
+Note:
+If you’re canceling a domain with
+Domain Protection
+, we'll need to verify your identity. Select
+Yes, Delete this product
+, then select
+Verify and delete
+. We'll send a verification code via SMS text message or authenticator app if you've had
+2-step verification
+(2SV) enabled in your account for more than 24 hours. Otherwise, select
+Send Password
+to send a
+one-time password
+to the email address on your GoDaddy account.
+Related step
+If you change your mind, you can
+manually renew your product
+.
+More info
+If you can't turn off auto-renew for a domain, it's possible that the domain status is pending updates. Domains must be in active status before you can change the auto-renew setting.
+To find out if you're eligible for a refund, contact
+our GoDaddy Guides
+for help.
+Here's our
+refund policy
+.
+Share this article ||| Applies to:
+SSL Certificates
+,
+Account Management
+GoDaddy
+Help
+Turn off auto-renew
+Turn off auto-renew and cancel subscriptions for your products. When you cancel renewal for a product, your subscription will end and you won’t be charged on the next billing date. If you change your mind, you can
+manually renew the product
+.
+Note:
+If you purchased your product through a mobile app store like the Apple App Store or Google Play, you need to
+use that mobile app store
+to make changes to your subscription.
+Go to your
+Renewals and Billing
+page and select
+Manage Subscriptions
+.
+Select the product and then select
+Turn off Auto-Renew
+.
+From the list, select a reason for cancelling the auto-renewal and then select
+Continue to Cancel
+.
+Below
+Confirm your cancellation
+we'll show you the date that your subscription will be cancelled. You can keep using the product until that date, and after that date your product and all associated data will be deleted.
+Select
+Confirm Cancel ||| ,
+changing nameservers
+and
+editing domain contact info
+. We'll make sure you're the one making those changes by notifying you and requiring identity verification before the action is completed.
+Ultimate Domain Protection
+: Rest assured that your domain is safe, even if renewal fails due to an invalid or expired payment method. Ultimate Domain Protection includes all the benefits of Full Domain Protection, and it also helps keep your domains from canceling unexpectedly because of failed billing. We'll hang on to your domain for 90 days if it accidentally expires, so you have time to
+renew it manually
+with no redemption fees.
+Domain Ownership Protection
+: Some domains aren't eligible for Domain Privacy, but they may still be eligible for Domain Protection. Domain Ownership Protection has the same coverage as our Ultimate Domain Protection and was created specifically to support these domain extensions.
+.au, .com.au, .net.au, .org.au
+.be
+.ca
+.de
+.es, .com.es, .nom.es, .org.es
+.eu
+.fr
+.gg ||| turn off Domain Privacy
+, which will display
+all
+domain contact info.
+Back to top
+Related steps
+Set up 2-step verification
+for the best security on your domains and account.
+Turn on
+auto-renew
+to continue your domain registration uninterrupted.
+More info
+If you've decided to invoke
+Nominet's WHOIS opt-out policy
+, your contact information visibility will be determined by that policy, regardless of what protection level you have through GoDaddy.
+Review your
+domain contact info
+to make sure your details are accurate and up-to-date.
+Share this article ||| one-time password
+or
+a 2-step verification code
+.
+These domain actions are considered high-risk and will prompt for identity verification.
+Delete a domain
+Turn off auto-renew
+Downgrade or remove Domain Protection
+Turn off Domain Privacy
+Change domain contact info
+Only applies when changing the first name, last name, organization or email address of the registrant contact info.
+Add to CashParking
+Unlock a domain
+Export domain list with authorization codes
+Transfer domain to another registrar (away from GoDaddy)
+Transfer domain to another GoDaddy account
+List a domain for sale via List for Sale
+Change nameservers
+Add, edit, or delete DNS records
+Add, edit, or delete domain or subdomain forwarding
+Import DNS zone file
+Edit custom hostnames
+Apply a DNS template
+What is the Activity Log?",1.86,1.0,1.0,0.66
+Config 3 - MultiQuery,How do I turn off auto-renew for my domain?,"Based on the provided context, to turn off auto-renew for your domain subscription:
+
+1. Go to your Renewals and Billing page and select Manage Subscriptions.
+2. Select the domain subscription you want to cancel auto-renew for.
+3. Select Turn off Auto-Renew.
+4. Select a reason for cancelling the auto-renewal and then select Continue to Cancel.
+5. Confirm the cancellation on the next page.
+
+The context states that if you are cancelling a domain with Domain Protection, you may need to verify your identity by entering a verification code sent to you. The context also notes that if you change your mind, you can manually renew the product later.","Select
+Confirm Cancel
+to turn off auto-renew for that subscription.
+Note:
+If you’re canceling a domain with
+Domain Protection
+, we'll need to verify your identity. Select
+Yes, Delete this product
+, then select
+Verify and delete
+. We'll send a verification code via SMS text message or authenticator app if you've had
+2-step verification
+(2SV) enabled in your account for more than 24 hours. Otherwise, select
+Send Password
+to send a
+one-time password
+to the email address on your GoDaddy account.
+Related step
+If you change your mind, you can
+manually renew your product
+.
+More info
+If you can't turn off auto-renew for a domain, it's possible that the domain status is pending updates. Domains must be in active status before you can change the auto-renew setting.
+To find out if you're eligible for a refund, contact
+our GoDaddy Guides
+for help.
+Here's our
+refund policy
+.
+Share this article ||| Applies to:
+SSL Certificates
+,
+Account Management
+GoDaddy
+Help
+Turn off auto-renew
+Turn off auto-renew and cancel subscriptions for your products. When you cancel renewal for a product, your subscription will end and you won’t be charged on the next billing date. If you change your mind, you can
+manually renew the product
+.
+Note:
+If you purchased your product through a mobile app store like the Apple App Store or Google Play, you need to
+use that mobile app store
+to make changes to your subscription.
+Go to your
+Renewals and Billing
+page and select
+Manage Subscriptions
+.
+Select the product and then select
+Turn off Auto-Renew
+.
+From the list, select a reason for cancelling the auto-renewal and then select
+Continue to Cancel
+.
+Below
+Confirm your cancellation
+we'll show you the date that your subscription will be cancelled. You can keep using the product until that date, and after that date your product and all associated data will be deleted.
+Select
+Confirm Cancel ||| ,
+changing nameservers
+and
+editing domain contact info
+. We'll make sure you're the one making those changes by notifying you and requiring identity verification before the action is completed.
+Ultimate Domain Protection
+: Rest assured that your domain is safe, even if renewal fails due to an invalid or expired payment method. Ultimate Domain Protection includes all the benefits of Full Domain Protection, and it also helps keep your domains from canceling unexpectedly because of failed billing. We'll hang on to your domain for 90 days if it accidentally expires, so you have time to
+renew it manually
+with no redemption fees.
+Domain Ownership Protection
+: Some domains aren't eligible for Domain Privacy, but they may still be eligible for Domain Protection. Domain Ownership Protection has the same coverage as our Ultimate Domain Protection and was created specifically to support these domain extensions.
+.au, .com.au, .net.au, .org.au
+.be
+.ca
+.de
+.es, .com.es, .nom.es, .org.es
+.eu
+.fr
+.gg ||| turn off Domain Privacy
+, which will display
+all
+domain contact info.
+Back to top
+Related steps
+Set up 2-step verification
+for the best security on your domains and account.
+Turn on
+auto-renew
+to continue your domain registration uninterrupted.
+More info
+If you've decided to invoke
+Nominet's WHOIS opt-out policy
+, your contact information visibility will be determined by that policy, regardless of what protection level you have through GoDaddy.
+Review your
+domain contact info
+to make sure your details are accurate and up-to-date.
+Share this article ||| one-time password
+or
+a 2-step verification code
+.
+These domain actions are considered high-risk and will prompt for identity verification.
+Delete a domain
+Turn off auto-renew
+Downgrade or remove Domain Protection
+Turn off Domain Privacy
+Change domain contact info
+Only applies when changing the first name, last name, organization or email address of the registrant contact info.
+Add to CashParking
+Unlock a domain
+Export domain list with authorization codes
+Transfer domain to another registrar (away from GoDaddy)
+Transfer domain to another GoDaddy account
+List a domain for sale via List for Sale
+Change nameservers
+Add, edit, or delete DNS records
+Add, edit, or delete domain or subdomain forwarding
+Import DNS zone file
+Edit custom hostnames
+Apply a DNS template
+What is the Activity Log?",2.36,1.0,1.0,0.72
+Config 1 - Naive,How do I cancel a domain transfer?,"Based on the provided context, the steps to cancel a domain transfer are:
+
+1. Select the checkbox next to the domain transfers you want to cancel.
+2. Alternatively, you can select the ""Domain"" checkbox and then choose ""Select All"" to cancel all domain transfers.
+3. Click the ""Cancel Transfer"" button above the domain list.
+4. Confirm the cancellation by clicking ""Cancel Transfer"" again.
+
+If the domain transfer is in progress and being transferred to GoDaddy, the context states that you cannot cancel it through GoDaddy. In that case, you would need to cancel the transfer through the current registrar.
+
+The context provides the necessary information to answer how to cancel a domain transfer. No additional information is needed.","Select the checkbox next to the domain transfers you're canceling. Or, select the checkbox next to
+Domain
+and then choose
+Select All
+.
+Select
+Cancel Transfer
+above your domain list.
+Note:
+Based on the status of your transfer, your view may be slightly different.
+Confirm cancellation by selecting
+Cancel Transfer
+again. If you changed your mind, select
+Keep Transfer
+You'll see confirmation that your domain transfer was canceled.
+Related step
+Interested in registering a new domain? ||| Search for the perfect domain
+to get started.
+More info
+After canceling an incoming domain transfer, you might be
+eligible for a refund
+.
+Set up 2-step verification
+for the best security on your domains and account.
+Share this article ||| Applies to:
+Domains
+Domains
+Help
+Cancel my domain transfer
+If you no longer want to transfer a domain, you can cancel it in your GoDaddy account. Canceling the domain transfer will keep the domain with your current registrar and doesn't cancel the domain itself.
+Note:
+Domains transferring to GoDaddy that are
+In Progress
+can't be canceled through GoDaddy. You'll need to cancel the transfer through the current registrar.
+Sign in to your GoDaddy
+Transfers Page
+. (Need help logging in?",1.48,1.0,1.0,0.833
+Config 2 - Optimized,How do I cancel a domain transfer?,"Based on the context provided:
+
+To cancel a domain transfer in your GoDaddy account:
+
+1. Sign in to your GoDaddy account and go to the Transfers page.
+2. Look for the ""Transfers In"" tab, which shows domains transferring to your GoDaddy account.
+3. Select the checkbox next to the domain transfer(s) you want to cancel.
+4. Click the ""Cancel Transfer"" button above the domain list.
+5. Confirm the cancellation by clicking ""Cancel Transfer"" again.
+
+The context states that domains ""In Progress"" cannot be canceled through GoDaddy, and you would need to cancel the transfer through the current registrar.","from
+your GoDaddy account will show here.
+Choose an available tab to view domains in a particular category.
+Each tab will group domains into categories, but the status of individual domains may vary.
+Select the checkbox next to the domain transfers you're canceling. Or, select the checkbox next to
+Domain
+and then choose
+Select All
+.
+Select
+Cancel Transfer
+above your domain list.
+Note:
+Based on the status of your transfer, your view may be slightly different.
+Confirm cancellation by selecting
+Cancel Transfer
+again. If you changed your mind, select
+Keep Transfer
+You'll see confirmation that your domain transfer was canceled.
+Related step
+Interested in registering a new domain?
+Search for the perfect domain
+to get started.
+More info
+After canceling an incoming domain transfer, you might be
+eligible for a refund
+.
+Set up 2-step verification
+for the best security on your domains and account.
+Share this article ||| Applies to:
+Domains
+Domains
+Help
+Cancel my domain transfer
+If you no longer want to transfer a domain, you can cancel it in your GoDaddy account. Canceling the domain transfer will keep the domain with your current registrar and doesn't cancel the domain itself.
+Note:
+Domains transferring to GoDaddy that are
+In Progress
+can't be canceled through GoDaddy. You'll need to cancel the transfer through the current registrar.
+Sign in to your GoDaddy
+Transfers Page
+. (Need help logging in?
+Find your username or password
+.)
+Make sure you have the correct
+Transfers
+button selected. Search for a specific domain using the search field above your domain list.
+Transfers In
+: Domains transferring
+to
+your GoDaddy account will show here.
+Transfers Out
+: Domains tranferring
+from
+your GoDaddy account will show here.
+Choose an available tab to view domains in a particular category.
+Each tab will group domains into categories, but the status of individual domains may vary. ||| Select
+Confirm Cancel
+to turn off auto-renew for that subscription.
+Note:
+If you’re canceling a domain with
+Domain Protection
+, we'll need to verify your identity. Select
+Yes, Delete this product
+, then select
+Verify and delete
+. We'll send a verification code via SMS text message or authenticator app if you've had
+2-step verification
+(2SV) enabled in your account for more than 24 hours. Otherwise, select
+Send Password
+to send a
+one-time password
+to the email address on your GoDaddy account.
+Related step
+If you change your mind, you can
+manually renew your product
+.
+More info
+If you can't turn off auto-renew for a domain, it's possible that the domain status is pending updates. Domains must be in active status before you can change the auto-renew setting.
+To find out if you're eligible for a refund, contact
+our GoDaddy Guides
+for help.
+Here's our
+refund policy
+.
+Share this article ||| , then select
+Ok
+.
+Review the confirmation message, then select
+OK
+.
+Once the backorder is deleted, you'll be left with a credit that can be used to
+backorder another domain
+.
+Related steps
+Domain Broker Service: a buyer's roadmap
+More info
+Set up domain monitoring
+Upgrade my monitored domain to a backorder
+Share this article ||| Applies to:
+Domains
+,
+Backorders & Monitoring
+GoDaddy
+Help
+Cancel my domain backorders and monitoring
+Note:
+GoDaddy is
+retiring the backorder and monitoring programs
+in 2025. You can use existing backorder credits until they're removed from your account on
+October 7, 2025
+. Backorder credits
+have not been available for purchase
+since August 8, 2024.
+You may decide a
+monitored
+or
+backordered domain
+no longer suits your needs, so you can cancel these services at any time within your account.
+Go to your GoDaddy
+My Products
+page. You might be prompted to sign in.
+Select
+Domain Products
+from your product list and then select
+Manage
+next to
+Domain Backorder
+.
+Check the box next to the domain you're canceling, then select
+Remove Selected
+.
+Check the box next to
+Remove backorders and monitoring
+, then select
+Ok
+.
+Review the confirmation message, then select
+OK
+.
+Once the backorder is deleted, you'll be left with a credit that can be used to
+backorder another domain
+.
+Related steps",1.59,1.0,1.0,0.6
+Config 3 - MultiQuery,How do I cancel a domain transfer?,"Based on the provided context, here are the steps to cancel a domain transfer:
+
+1. Sign in to your GoDaddy account and go to the Transfers page.
+
+2. Make sure you have the ""Transfers In"" tab selected to view domains transferring to your GoDaddy account.
+
+3. Select the checkbox next to the domain transfer(s) you want to cancel.
+
+4. Click the ""Cancel Transfer"" button above the domain list.
+
+5. Confirm the cancellation by clicking ""Cancel Transfer"" again.
+
+The context indicates that domains ""In Progress"" transferring to GoDaddy cannot be canceled through GoDaddy and will need to be canceled through the current registrar.","from
+your GoDaddy account will show here.
+Choose an available tab to view domains in a particular category.
+Each tab will group domains into categories, but the status of individual domains may vary.
+Select the checkbox next to the domain transfers you're canceling. Or, select the checkbox next to
+Domain
+and then choose
+Select All
+.
+Select
+Cancel Transfer
+above your domain list.
+Note:
+Based on the status of your transfer, your view may be slightly different.
+Confirm cancellation by selecting
+Cancel Transfer
+again. If you changed your mind, select
+Keep Transfer
+You'll see confirmation that your domain transfer was canceled.
+Related step
+Interested in registering a new domain?
+Search for the perfect domain
+to get started.
+More info
+After canceling an incoming domain transfer, you might be
+eligible for a refund
+.
+Set up 2-step verification
+for the best security on your domains and account.
+Share this article ||| Applies to:
+Domains
+Domains
+Help
+Cancel my domain transfer
+If you no longer want to transfer a domain, you can cancel it in your GoDaddy account. Canceling the domain transfer will keep the domain with your current registrar and doesn't cancel the domain itself.
+Note:
+Domains transferring to GoDaddy that are
+In Progress
+can't be canceled through GoDaddy. You'll need to cancel the transfer through the current registrar.
+Sign in to your GoDaddy
+Transfers Page
+. (Need help logging in?
+Find your username or password
+.)
+Make sure you have the correct
+Transfers
+button selected. Search for a specific domain using the search field above your domain list.
+Transfers In
+: Domains transferring
+to
+your GoDaddy account will show here.
+Transfers Out
+: Domains tranferring
+from
+your GoDaddy account will show here.
+Choose an available tab to view domains in a particular category.
+Each tab will group domains into categories, but the status of individual domains may vary. ||| Select
+Confirm Cancel
+to turn off auto-renew for that subscription.
+Note:
+If you’re canceling a domain with
+Domain Protection
+, we'll need to verify your identity. Select
+Yes, Delete this product
+, then select
+Verify and delete
+. We'll send a verification code via SMS text message or authenticator app if you've had
+2-step verification
+(2SV) enabled in your account for more than 24 hours. Otherwise, select
+Send Password
+to send a
+one-time password
+to the email address on your GoDaddy account.
+Related step
+If you change your mind, you can
+manually renew your product
+.
+More info
+If you can't turn off auto-renew for a domain, it's possible that the domain status is pending updates. Domains must be in active status before you can change the auto-renew setting.
+To find out if you're eligible for a refund, contact
+our GoDaddy Guides
+for help.
+Here's our
+refund policy
+.
+Share this article ||| , then select
+Ok
+.
+Review the confirmation message, then select
+OK
+.
+Once the backorder is deleted, you'll be left with a credit that can be used to
+backorder another domain
+.
+Related steps
+Domain Broker Service: a buyer's roadmap
+More info
+Set up domain monitoring
+Upgrade my monitored domain to a backorder
+Share this article ||| Applies to:
+Domains
+,
+Backorders & Monitoring
+GoDaddy
+Help
+Cancel my domain backorders and monitoring
+Note:
+GoDaddy is
+retiring the backorder and monitoring programs
+in 2025. You can use existing backorder credits until they're removed from your account on
+October 7, 2025
+. Backorder credits
+have not been available for purchase
+since August 8, 2024.
+You may decide a
+monitored
+or
+backordered domain
+no longer suits your needs, so you can cancel these services at any time within your account.
+Go to your GoDaddy
+My Products
+page. You might be prompted to sign in.
+Select
+Domain Products
+from your product list and then select
+Manage
+next to
+Domain Backorder
+.
+Check the box next to the domain you're canceling, then select
+Remove Selected
+.
+Check the box next to
+Remove backorders and monitoring
+, then select
+Ok
+.
+Review the confirmation message, then select
+OK
+.
+Once the backorder is deleted, you'll be left with a credit that can be used to
+backorder another domain
+.
+Related steps",2.68,1.0,1.0,0.5
+Config 1 - Naive,What is domain protection?,"According to the provided context, domain protection refers to features that help secure your domain by preventing unauthorized actions, such as transferring a domain or making DNS updates, and avoiding accidental domain expiration if your credit card on file expires.
+
+The key points are:
+
+- Domain protection goes beyond just keeping your contact information private (which is the purpose of Domain Privacy).
+- Domain protection helps prevent unauthorized or malicious actions on your domain.
+- It includes preventing unauthorized domain transfers or DNS updates.
+- It also helps avoid accidental domain expiration if your payment method expires.
+
+So in summary, domain protection is a set of features that help secure your domain and prevent unauthorized changes or accidental expiration.","domains helps protect your business and brand from unauthorized or malicious actions. ||| from our privacy partner, Domains By Proxy®. But protecting your domain is about more than keeping your contact info private. Domain Protection helps secure your domain by preventing unauthorized domain actions, such as transferring a domain or making DNS updates, and avoiding accidental domain expiration if your credit card on file expires.
+Back to top
+What are my Domain Protection options? ||| Applies to:
+Domains
+Domains
+Help
+What is Domain Protection?
+Protecting your
+GoDaddy domain
+is an essential part of managing your online presence. You already protect your website with an SSL, so why not protect your domain, too? We have different levels of
+Domain Protection
+to keep your domain secure.
+Select a question to see its answer:
+How is Domain Protection different from Domain Privacy?
+What are my Domain Protection options?
+What is a high-risk action?
+What is the Activity Log?",2.57,1.0,1.0,0.9
+Config 2 - Optimized,What is domain protection?,"Based on the provided context, domain protection refers to GoDaddy's service that helps secure your domain by preventing unauthorized domain actions, such as transferring the domain, changing nameservers, or editing domain contact information. 
+
+The key points about domain protection are:
+
+- It is different from domain privacy, which just replaces your contact information with proxy details. Domain protection goes beyond that to secure your domain against unauthorized changes.
+
+- GoDaddy offers two main domain protection options:
+  1. Full Domain Protection - Prevents unauthorized changes and requires identity verification before certain ""high-risk"" actions can be taken.
+  2. Ultimate Domain Protection - Includes all the Full Domain Protection features, plus protection against domains accidentally expiring due to failed billing.
+
+- There is also a ""Domain Ownership Protection"" option for domain extensions that are not eligible for domain privacy.
+
+- The Activity Log allows you to see what high-risk actions have been taken on your domains with Domain Protection.
+
+- You can change your domain protection plan at any time, upgrading or downgrading the level of protection.
+
+So in summary, domain protection is a GoDaddy service that helps secure your domain against unauthorized changes and accidental expiration.","Applies to:
+Domains
+Domains
+Help
+What is Domain Protection?
+Protecting your
+GoDaddy domain
+is an essential part of managing your online presence. You already protect your website with an SSL, so why not protect your domain, too? We have different levels of
+Domain Protection
+to keep your domain secure.
+Select a question to see its answer:
+How is Domain Protection different from Domain Privacy?
+What are my Domain Protection options?
+What is a high-risk action?
+What is the Activity Log?
+Can I change my Domain Protection plan?
+How will people be able to contact me?
+How can I verify domain ownership?
+How is Domain Protection different from Domain Privacy?
+Domain Privacy
+is automatically added to all eligible domains registered with GoDaddy. Domain Privacy will automatically replace their domain contact info
+with substitute details ||| Domain Privacy
+is automatically added to all eligible domains registered with GoDaddy. Domain Privacy will automatically replace their domain contact info
+with substitute details
+from our privacy partner, Domains By Proxy®. But protecting your domain is about more than keeping your contact info private. Domain Protection helps secure your domain by preventing unauthorized domain actions, such as transferring a domain or making DNS updates, and avoiding accidental domain expiration if your credit card on file expires.
+Back to top
+What are my Domain Protection options?
+We currently have two options available for Domain Protection, so you can choose the level of protection that works best for you.
+Full Domain Protection
+: Prevent unauthorized domain actions, such as
+transferring away
+,
+changing nameservers
+and
+editing domain contact info
+. We'll make sure you're the one making those changes by notifying you and requiring identity verification before the action is completed. ||| .au, .com.au, .net.au, .org.au
+.be
+.ca
+.de
+.es, .com.es, .nom.es, .org.es
+.eu
+.fr
+.gg
+.in, .co.in, .net.in, .org.in, .firm.in, .gen.in, .ind.in
+.it
+.tk
+.us
+You might see some domains with other Domain Protection names, like Full Domain Privacy & Protection or Ultimate Domain Protection & Security. These are our legacy protection offerings, and you'll see them stick around until the associated domain is canceled, expires or the Domain Protection is downgraded.
+Back to top
+What is a high-risk action?
+High-risk actions are categorized as actions that could have a negative impact on your domain or connected services, including transfers, DNS changes and turning off Domain Privacy. High-risk actions require approval before they can be completed when Domain Protection is active. Depending on your account settings, you may be prompted to enter a
+one-time password
+or
+a 2-step verification code
+.
+These domain actions are considered high-risk and will prompt for identity verification. ||| Change nameservers
+Add, edit, or delete DNS records
+Add, edit, or delete domain or subdomain forwarding
+Import DNS zone file
+Edit custom hostnames
+Apply a DNS template
+What is the Activity Log?
+The Activity Log is designed to help you see what high-risk actions were taken on your domains with Domain Protection. You can see what changes were made, when they were made, and the current status of those changes. View specific entries by filtering the Activity Log with options like
+Date
+,
+Activity
+, and
+User
+.
+Can I change my Domain Protection plan?
+Yes, you can change your protection plan at any time. You can
+upgrade your protection
+to gain additional security features, or
+downgrade your protection
+to remove features. Your eligible domains will always have
+Domain Privacy
+available, regardless of your Domain Protection plan.
+Note:
+Domains that are part of a bundle cannot change their Domain Protection plan.
+Back to top
+How will people be able to contact me? ||| ,
+changing nameservers
+and
+editing domain contact info
+. We'll make sure you're the one making those changes by notifying you and requiring identity verification before the action is completed.
+Ultimate Domain Protection
+: Rest assured that your domain is safe, even if renewal fails due to an invalid or expired payment method. Ultimate Domain Protection includes all the benefits of Full Domain Protection, and it also helps keep your domains from canceling unexpectedly because of failed billing. We'll hang on to your domain for 90 days if it accidentally expires, so you have time to
+renew it manually
+with no redemption fees.
+Domain Ownership Protection
+: Some domains aren't eligible for Domain Privacy, but they may still be eligible for Domain Protection. Domain Ownership Protection has the same coverage as our Ultimate Domain Protection and was created specifically to support these domain extensions.
+.au, .com.au, .net.au, .org.au
+.be
+.ca
+.de
+.es, .com.es, .nom.es, .org.es
+.eu
+.fr
+.gg",2.16,1.0,1.0,0.56
+Config 3 - MultiQuery,What is domain protection?,"Based on the provided context, domain protection refers to a set of features offered by GoDaddy to help secure and protect your domain from unauthorized actions. The key points are:
+
+- Domain Protection is different from Domain Privacy. Domain Privacy just replaces your contact information with substitute details, while Domain Protection helps prevent unauthorized domain actions like transfers, DNS changes, etc.
+
+- GoDaddy offers two main levels of Domain Protection:
+
+1. Full Domain Protection - Prevents unauthorized domain actions and requires identity verification before changes can be made.
+
+2. Ultimate Domain Protection - Includes all the benefits of Full Domain Protection, and also helps keep your domain from accidentally expiring if your payment method fails.
+
+- Domain Protection is available for certain domain extensions, like .com, .org, .net, etc. Some domains may have access to a ""Domain Ownership Protection"" plan instead.
+
+- The Activity Log allows you to see the history of high-risk actions taken on your domains with Domain Protection.
+
+So in summary, domain protection is a suite of security features offered by GoDaddy to help protect your domain from unauthorized changes or expiration.","Applies to:
+Domains
+Domains
+Help
+What is Domain Protection?
+Protecting your
+GoDaddy domain
+is an essential part of managing your online presence. You already protect your website with an SSL, so why not protect your domain, too? We have different levels of
+Domain Protection
+to keep your domain secure.
+Select a question to see its answer:
+How is Domain Protection different from Domain Privacy?
+What are my Domain Protection options?
+What is a high-risk action?
+What is the Activity Log?
+Can I change my Domain Protection plan?
+How will people be able to contact me?
+How can I verify domain ownership?
+How is Domain Protection different from Domain Privacy?
+Domain Privacy
+is automatically added to all eligible domains registered with GoDaddy. Domain Privacy will automatically replace their domain contact info
+with substitute details ||| Domain Privacy
+is automatically added to all eligible domains registered with GoDaddy. Domain Privacy will automatically replace their domain contact info
+with substitute details
+from our privacy partner, Domains By Proxy®. But protecting your domain is about more than keeping your contact info private. Domain Protection helps secure your domain by preventing unauthorized domain actions, such as transferring a domain or making DNS updates, and avoiding accidental domain expiration if your credit card on file expires.
+Back to top
+What are my Domain Protection options?
+We currently have two options available for Domain Protection, so you can choose the level of protection that works best for you.
+Full Domain Protection
+: Prevent unauthorized domain actions, such as
+transferring away
+,
+changing nameservers
+and
+editing domain contact info
+. We'll make sure you're the one making those changes by notifying you and requiring identity verification before the action is completed. ||| .au, .com.au, .net.au, .org.au
+.be
+.ca
+.de
+.es, .com.es, .nom.es, .org.es
+.eu
+.fr
+.gg
+.in, .co.in, .net.in, .org.in, .firm.in, .gen.in, .ind.in
+.it
+.tk
+.us
+You might see some domains with other Domain Protection names, like Full Domain Privacy & Protection or Ultimate Domain Protection & Security. These are our legacy protection offerings, and you'll see them stick around until the associated domain is canceled, expires or the Domain Protection is downgraded.
+Back to top
+What is a high-risk action?
+High-risk actions are categorized as actions that could have a negative impact on your domain or connected services, including transfers, DNS changes and turning off Domain Privacy. High-risk actions require approval before they can be completed when Domain Protection is active. Depending on your account settings, you may be prompted to enter a
+one-time password
+or
+a 2-step verification code
+.
+These domain actions are considered high-risk and will prompt for identity verification. ||| Change nameservers
+Add, edit, or delete DNS records
+Add, edit, or delete domain or subdomain forwarding
+Import DNS zone file
+Edit custom hostnames
+Apply a DNS template
+What is the Activity Log?
+The Activity Log is designed to help you see what high-risk actions were taken on your domains with Domain Protection. You can see what changes were made, when they were made, and the current status of those changes. View specific entries by filtering the Activity Log with options like
+Date
+,
+Activity
+, and
+User
+.
+Can I change my Domain Protection plan?
+Yes, you can change your protection plan at any time. You can
+upgrade your protection
+to gain additional security features, or
+downgrade your protection
+to remove features. Your eligible domains will always have
+Domain Privacy
+available, regardless of your Domain Protection plan.
+Note:
+Domains that are part of a bundle cannot change their Domain Protection plan.
+Back to top
+How will people be able to contact me? ||| ,
+changing nameservers
+and
+editing domain contact info
+. We'll make sure you're the one making those changes by notifying you and requiring identity verification before the action is completed.
+Ultimate Domain Protection
+: Rest assured that your domain is safe, even if renewal fails due to an invalid or expired payment method. Ultimate Domain Protection includes all the benefits of Full Domain Protection, and it also helps keep your domains from canceling unexpectedly because of failed billing. We'll hang on to your domain for 90 days if it accidentally expires, so you have time to
+renew it manually
+with no redemption fees.
+Domain Ownership Protection
+: Some domains aren't eligible for Domain Privacy, but they may still be eligible for Domain Protection. Domain Ownership Protection has the same coverage as our Ultimate Domain Protection and was created specifically to support these domain extensions.
+.au, .com.au, .net.au, .org.au
+.be
+.ca
+.de
+.es, .com.es, .nom.es, .org.es
+.eu
+.fr
+.gg",3.3,0.5,1.0,0.54
+Config 1 - Naive,How do I close my GoDaddy account?,"Based on the provided context, here are the steps to close your GoDaddy account:
+
+1. Delete all products associated with your account.
+2. Wait at least 24 hours after deleting your products.
+3. Go to your GoDaddy Contact Preferences and follow the steps to close your account.
+
+If there are still products in your account, GoDaddy will remind you to delete those first, and you'll need to wait another 24 hours before trying to close the account.
+
+The context states that account closures cannot be reversed and that certain data may be retained for legal purposes even after the account is closed.
+
+If you have more than one GoDaddy account, the context advises to contact a GoDaddy Guide for assistance.","If you have cancelled all of your products, and no longer want an account,
+close your GoDaddy account
+.
+Share this article ||| Account closures
+can not
+be reversed. Once we delete your data and information, there's no way to retrieve it.
+Required:
+Before closing your account, you must first
+delete all products associated with your account
+.
+For GoDaddy Payments, you must follow the steps in
+Remove GoDaddy Payments
+. After all your products have been deleted, wait at least
+24 hours
+before following these steps.
+When it’s been more than 24 hours since you deleted your products, go to your GoDaddy
+Contact Preferences ||| If there are still products in your account, we'll remind you to delete those products. You must then wait at least 24 hours before trying to close your account.
+Note:
+To the extent necessary based on legitimate purposes to fulfill our corporate obligations, such as those necessary for record-keeping and other legal purposes, certain data may be retained in accordance with our document retention policies.
+More info
+If you have more than one GoDaddy account,
+contact a GoDaddy Guide",1.69,1.0,1.0,0.967
+Config 2 - Optimized,How do I close my GoDaddy account?,"Based on the provided context, here are the steps to close your GoDaddy account:
+
+1. Delete all products associated with your account. For GoDaddy Payments, you must follow the steps in ""Remove GoDaddy Payments"".
+
+2. Wait at least 24 hours after deleting your products.
+
+3. Go to your GoDaddy Contact Preferences page and sign in if prompted.
+
+4. In the Privacy section, select ""Account"".
+
+5. Read the entire ""Close Account"" message.
+
+6. Select the checkbox next to ""I understand this action cannot be undone"", then select ""Close Account"".
+
+7. If there are no products remaining in your account, you'll see a success message confirming your account is closed.
+
+8. If there are still products in your account, you'll be reminded to delete those products first. You must then wait at least 24 hours before trying to close your account again.
+
+The context provided the detailed steps to close your GoDaddy account, so I was able to answer the question using only the information given.","Applies to:
+Account Management
+Account Management
+Help
+Close my account
+Closing your GoDaddy account will permanently delete all associated information.
+Warning: You cannot request refunds once you close your account.
+If you're eligible for a refund, please
+contact our GoDaddy Guides
+to request a refund before you close your account. Once your account is closed, your account data is deleted and you will no longer be eligible for a refund as otherwise permitted under our
+refund policy
+.
+Warning:
+Account closures
+can not
+be reversed. Once we delete your data and information, there's no way to retrieve it.
+Required:
+Before closing your account, you must first
+delete all products associated with your account
+.
+For GoDaddy Payments, you must follow the steps in
+Remove GoDaddy Payments
+. After all your products have been deleted, wait at least
+24 hours
+before following these steps.
+When it’s been more than 24 hours since you deleted your products, go to your GoDaddy
+Contact Preferences ||| 24 hours
+before following these steps.
+When it’s been more than 24 hours since you deleted your products, go to your GoDaddy
+Contact Preferences
+page. You might be prompted to sign in.
+In the
+Privacy
+section, select
+Account
+.
+Read the entire
+Close Account
+message.
+Next to
+I understand this action cannot be undone
+, select the checkbox, and then select
+Close Account
+.
+If there are no products remaining in your account, you'll see a success message confirming your account is closed.
+If there are still products in your account, we'll remind you to delete those products. You must then wait at least 24 hours before trying to close your account.
+Note:
+To the extent necessary based on legitimate purposes to fulfill our corporate obligations, such as those necessary for record-keeping and other legal purposes, certain data may be retained in accordance with our document retention policies.
+More info
+If you have more than one GoDaddy account,
+contact a GoDaddy Guide
+to merge your accounts. ||| More info
+If you have more than one GoDaddy account,
+contact a GoDaddy Guide
+to merge your accounts.
+Share this article ||| from
+your GoDaddy account will show here.
+Choose an available tab to view domains in a particular category.
+Each tab will group domains into categories, but the status of individual domains may vary.
+Select the checkbox next to the domain transfers you're canceling. Or, select the checkbox next to
+Domain
+and then choose
+Select All
+.
+Select
+Cancel Transfer
+above your domain list.
+Note:
+Based on the status of your transfer, your view may be slightly different.
+Confirm cancellation by selecting
+Cancel Transfer
+again. If you changed your mind, select
+Keep Transfer
+You'll see confirmation that your domain transfer was canceled.
+Related step
+Interested in registering a new domain?
+Search for the perfect domain
+to get started.
+More info
+After canceling an incoming domain transfer, you might be
+eligible for a refund
+.
+Set up 2-step verification
+for the best security on your domains and account.
+Share this article ||| Applies to:
+Account Management
+,
+GoDaddy Payments
+GoDaddy
+Help
+Remove GoDaddy Payments
+Currently, GoDaddy Payments is a free feature that you can activate in various GoDaddy products, like Websites + Marketing and Managed Hosting for WordPress.
+Disconnecting GoDaddy Payments removes it as a payment option in your store. Then if you decide later that you’d like to use it again, you’ll already be set up! We can also help you remove GoDaddy Payments completely from your GoDaddy account.
+Remove GoDaddy Payments from your Websites + Marketing store
+Sign in to your Dashboard from
+Websites + Marketing
+.
+Next to GoDaddy Payments, select
+Disconnect
+.
+Select
+OK
+to remove it as a payment option in your store.
+Remove GoDaddy Payments from your Managed Ecommerce for WordPress store
+Sign in to your Dashboard from
+Managed Ecommerce for WordPress
+.
+In the left-hand navigation, select
+WooCommerce
+.
+Under
+Settings
+, select
+Payments
+.
+Under
+Method
+, locate
+GoDaddy Payments
+and then toggle
+Enabled",1.94,1.0,1.0,0.6
+Config 3 - MultiQuery,How do I close my GoDaddy account?,"Based on the provided context, here are the steps to close your GoDaddy account:
+
+1. Delete all products associated with your account. For GoDaddy Payments, follow the steps in ""Remove GoDaddy Payments"".
+
+2. Wait at least 24 hours after deleting your products.
+
+3. Go to your GoDaddy Contact Preferences page and sign in if prompted.
+
+4. In the Privacy section, select Account.
+
+5. Read the entire ""Close Account"" message.
+
+6. Check the box next to ""I understand this action cannot be undone"", then select ""Close Account"".
+
+7. If there are still products in your account, you'll be reminded to delete them first. You'll need to wait at least another 24 hours before trying to close the account again.
+
+8. Once your account is closed, your account data will be deleted and you will no longer be eligible for any refunds.
+
+The context provided the detailed steps to close a GoDaddy account, so I can give a complete answer based on that information.","Applies to:
+Account Management
+Account Management
+Help
+Close my account
+Closing your GoDaddy account will permanently delete all associated information.
+Warning: You cannot request refunds once you close your account.
+If you're eligible for a refund, please
+contact our GoDaddy Guides
+to request a refund before you close your account. Once your account is closed, your account data is deleted and you will no longer be eligible for a refund as otherwise permitted under our
+refund policy
+.
+Warning:
+Account closures
+can not
+be reversed. Once we delete your data and information, there's no way to retrieve it.
+Required:
+Before closing your account, you must first
+delete all products associated with your account
+.
+For GoDaddy Payments, you must follow the steps in
+Remove GoDaddy Payments
+. After all your products have been deleted, wait at least
+24 hours
+before following these steps.
+When it’s been more than 24 hours since you deleted your products, go to your GoDaddy
+Contact Preferences ||| 24 hours
+before following these steps.
+When it’s been more than 24 hours since you deleted your products, go to your GoDaddy
+Contact Preferences
+page. You might be prompted to sign in.
+In the
+Privacy
+section, select
+Account
+.
+Read the entire
+Close Account
+message.
+Next to
+I understand this action cannot be undone
+, select the checkbox, and then select
+Close Account
+.
+If there are no products remaining in your account, you'll see a success message confirming your account is closed.
+If there are still products in your account, we'll remind you to delete those products. You must then wait at least 24 hours before trying to close your account.
+Note:
+To the extent necessary based on legitimate purposes to fulfill our corporate obligations, such as those necessary for record-keeping and other legal purposes, certain data may be retained in accordance with our document retention policies.
+More info
+If you have more than one GoDaddy account,
+contact a GoDaddy Guide
+to merge your accounts. ||| More info
+If you have more than one GoDaddy account,
+contact a GoDaddy Guide
+to merge your accounts.
+Share this article ||| from
+your GoDaddy account will show here.
+Choose an available tab to view domains in a particular category.
+Each tab will group domains into categories, but the status of individual domains may vary.
+Select the checkbox next to the domain transfers you're canceling. Or, select the checkbox next to
+Domain
+and then choose
+Select All
+.
+Select
+Cancel Transfer
+above your domain list.
+Note:
+Based on the status of your transfer, your view may be slightly different.
+Confirm cancellation by selecting
+Cancel Transfer
+again. If you changed your mind, select
+Keep Transfer
+You'll see confirmation that your domain transfer was canceled.
+Related step
+Interested in registering a new domain?
+Search for the perfect domain
+to get started.
+More info
+After canceling an incoming domain transfer, you might be
+eligible for a refund
+.
+Set up 2-step verification
+for the best security on your domains and account.
+Share this article ||| Applies to:
+Account Management
+,
+GoDaddy Payments
+GoDaddy
+Help
+Remove GoDaddy Payments
+Currently, GoDaddy Payments is a free feature that you can activate in various GoDaddy products, like Websites + Marketing and Managed Hosting for WordPress.
+Disconnecting GoDaddy Payments removes it as a payment option in your store. Then if you decide later that you’d like to use it again, you’ll already be set up! We can also help you remove GoDaddy Payments completely from your GoDaddy account.
+Remove GoDaddy Payments from your Websites + Marketing store
+Sign in to your Dashboard from
+Websites + Marketing
+.
+Next to GoDaddy Payments, select
+Disconnect
+.
+Select
+OK
+to remove it as a payment option in your store.
+Remove GoDaddy Payments from your Managed Ecommerce for WordPress store
+Sign in to your Dashboard from
+Managed Ecommerce for WordPress
+.
+In the left-hand navigation, select
+WooCommerce
+.
+Under
+Settings
+, select
+Payments
+.
+Under
+Method
+, locate
+GoDaddy Payments
+and then toggle
+Enabled",3.91,1.0,1.0,0.64
+Config 1 - Naive,How do I enable 2-step verification on my account?,"Based on the provided context, here are the steps to enable 2-step verification on your GoDaddy account:
+
+1. Go to your GoDaddy account's Security page.
+2. In the Security list, locate the ""2-Step Verification"" setting.
+3. Switch the 2-Step Verification toggle to the ""enabled"" position.
+
+The context states that you must have at least one verification method enabled before you can enable 2-step verification. So if you haven't set up a verification method yet, you'll need to do that first before enabling 2-step verification.
+
+The context also mentions that when 2-step verification is enabled, you'll be prompted to use your default verification method to confirm your identity each time you sign in or perform high-risk actions.","page. You might be prompted to sign in.
+In the
+Security
+list, below
+Enhanced Security
+, switch the
+2-Step Verification
+toggle to enable or disable the method.
+When enabled, we'll prompt you to use your default verification method to confirm your identity each time you sign in to your account or when you perform high-risk actions.
+Note:
+Disabling
+2-step verification
+is
+not the same
+as disabling or cancelling
+identity verification
+- the
+steps to disable or cancel an identity verification method ||| Applies to:
+Account Management
+Account Management
+Help
+Enable or disable 2-step verification for your GoDaddy account
+To enhance your account security, you can
+require
+2-step verification every time you sign in to your account
+and
+for all high-risk actions (like changing your password). This makes it even more difficult for bad actors to get into your account.
+Required:
+You must
+enable at least one verification method
+before you can enable 2-step verification.
+Go to your GoDaddy
+Security ||| are different. When you follow these steps to disable 2-step verification, you will no longer be required to verify your identity each time you sign in to your account - but if you have
+enabled identity verification
+, we will still require identity verification for high-risk actions, or if we suspect fraudulent login attempts.
+More info
+Change my verification phone number
+Cancel an identity verification method
+If your verification method fails and you must
+contact support",1.56,1.0,1.0,0.633
+Config 2 - Optimized,How do I enable 2-step verification on my account?,"Based on the provided context, to enable 2-step verification on your GoDaddy account:
+
+1. Go to your GoDaddy Security page. You may be prompted to sign in.
+2. Under the ""Enhanced Security"" section, switch the ""2-Step Verification"" toggle to enable it.
+
+The context states that you must enable at least one verification method before you can enable 2-step verification. So make sure you have a verification method set up first, such as a phone number to receive SMS codes.
+
+When 2-step verification is enabled, you will be prompted to use your default verification method to confirm your identity each time you sign in to your account or perform high-risk actions.
+
+The context also notes that disabling 2-step verification is not the same as disabling or cancelling identity verification. If you have identity verification enabled, that will still be required for high-risk actions or suspected fraudulent login attempts, even if you disable 2-step verification.","Applies to:
+Account Management
+Account Management
+Help
+Enable or disable 2-step verification for your GoDaddy account
+To enhance your account security, you can
+require
+2-step verification every time you sign in to your account
+and
+for all high-risk actions (like changing your password). This makes it even more difficult for bad actors to get into your account.
+Required:
+You must
+enable at least one verification method
+before you can enable 2-step verification.
+Go to your GoDaddy
+Security
+page. You might be prompted to sign in.
+In the
+Security
+list, below
+Enhanced Security
+, switch the
+2-Step Verification
+toggle to enable or disable the method.
+When enabled, we'll prompt you to use your default verification method to confirm your identity each time you sign in to your account or when you perform high-risk actions.
+Note:
+Disabling
+2-step verification
+is
+not the same
+as disabling or cancelling
+identity verification
+- the
+steps to disable or cancel an identity verification method ||| Note:
+Disabling
+2-step verification
+is
+not the same
+as disabling or cancelling
+identity verification
+- the
+steps to disable or cancel an identity verification method
+are different. When you follow these steps to disable 2-step verification, you will no longer be required to verify your identity each time you sign in to your account - but if you have
+enabled identity verification
+, we will still require identity verification for high-risk actions, or if we suspect fraudulent login attempts.
+More info
+Change my verification phone number
+Cancel an identity verification method
+If your verification method fails and you must
+contact support
+for assistance, we'll ask you to share your verification method with us to validate your account.
+Share this article ||| 2-step verification (2SV)
+turned on won't get a one-time password for identity verification.
+What is identity verification?
+Identity verification is an additional security measure we use on domains with Domain Protection added to make sure only authorized users can complete certain domain actions. You may have heard of 2-step verification or multi-factor authentication when logging into different accounts online. Identity verification uses that same concept of a secondary verification method to protect your domains and make sure you're an authorized user in the account. The additional identity verification on your domains helps protect your business and brand from unauthorized or malicious actions.
+How does a one-time password work?
+When completing certain actions on domains with Domain Protection, you'll be asked to enter a verification code. We'll automatically send a one-time password to the email address on your GoDaddy account (in some cases, you may need to select
+Send Password ||| Applies to:
+Account Management
+Account Management
+Help
+Update my GoDaddy account profile
+To help keep your account secure, we recommend that you keep your account profile information up to date. Your profile info includes your name, email and postal addresses, organization, phone numbers and default currency.
+Note:
+Any time you change your profile info, we recommend you also
+check your two-step verification (2SV) phone numbers
+if you've got those set up.
+Go to your GoDaddy
+My Profile
+page. You might be prompted to sign in.
+Below
+My Profile
+, select the information you want to change.
+Required:
+Your
+Primary Mobile Phone
+number must be a mobile number capable of receiving SMS text messages. That's the number we'll send a verification code to when we need to confirm your identity.
+If you're changing your email or Primary Mobile Phone number, we'll show you the email or number we have on file.
+Before
+you select
+Send Verification Code ||| Send Password
+to manually send the one-time password). Enter that code in the verification window to confirm your identity and complete the action on your domain. If you've had 2-step verification (2SV) turned on for at least 24 hours, you'll complete identity verification via 2SV instead of OTP.
+Back to top
+When will I get a one-time password?
+These domain actions are considered high-risk and will prompt for identity verification.
+Delete a domain
+Turn off auto-renew
+Downgrade or remove Domain Protection
+Turn off Domain Privacy
+Change domain contact info
+Only applies when changing the first name, last name, organization or email address of the registrant contact info.
+Add to CashParking
+Unlock a domain
+Export domain list with authorization codes
+Transfer domain to another registrar (away from GoDaddy)
+Transfer domain to another GoDaddy account
+List a domain for sale via List for Sale
+Change nameservers
+Add, edit, or delete DNS records",2.03,0.5,1.0,0.34
+Config 3 - MultiQuery,How do I enable 2-step verification on my account?,"Based on the provided context, here are the steps to enable 2-step verification on your GoDaddy account:
+
+1. Go to your GoDaddy Security page. You may be prompted to sign in.
+
+2. In the Security list, under ""Enhanced Security"", switch the ""2-Step Verification"" toggle to enable.
+
+3. Before you can enable 2-step verification, you must first enable at least one verification method. This could be a phone number or an authenticator app.
+
+4. Once 2-step verification is enabled, you will be prompted to use your default verification method to confirm your identity each time you sign in to your account or perform high-risk actions.
+
+The context does not provide information on how to set up the initial verification method. If you need assistance with that, you would need to contact GoDaddy support.","Applies to:
+Account Management
+Account Management
+Help
+Enable or disable 2-step verification for your GoDaddy account
+To enhance your account security, you can
+require
+2-step verification every time you sign in to your account
+and
+for all high-risk actions (like changing your password). This makes it even more difficult for bad actors to get into your account.
+Required:
+You must
+enable at least one verification method
+before you can enable 2-step verification.
+Go to your GoDaddy
+Security
+page. You might be prompted to sign in.
+In the
+Security
+list, below
+Enhanced Security
+, switch the
+2-Step Verification
+toggle to enable or disable the method.
+When enabled, we'll prompt you to use your default verification method to confirm your identity each time you sign in to your account or when you perform high-risk actions.
+Note:
+Disabling
+2-step verification
+is
+not the same
+as disabling or cancelling
+identity verification
+- the
+steps to disable or cancel an identity verification method ||| Note:
+Disabling
+2-step verification
+is
+not the same
+as disabling or cancelling
+identity verification
+- the
+steps to disable or cancel an identity verification method
+are different. When you follow these steps to disable 2-step verification, you will no longer be required to verify your identity each time you sign in to your account - but if you have
+enabled identity verification
+, we will still require identity verification for high-risk actions, or if we suspect fraudulent login attempts.
+More info
+Change my verification phone number
+Cancel an identity verification method
+If your verification method fails and you must
+contact support
+for assistance, we'll ask you to share your verification method with us to validate your account.
+Share this article ||| 2-step verification (2SV)
+turned on won't get a one-time password for identity verification.
+What is identity verification?
+Identity verification is an additional security measure we use on domains with Domain Protection added to make sure only authorized users can complete certain domain actions. You may have heard of 2-step verification or multi-factor authentication when logging into different accounts online. Identity verification uses that same concept of a secondary verification method to protect your domains and make sure you're an authorized user in the account. The additional identity verification on your domains helps protect your business and brand from unauthorized or malicious actions.
+How does a one-time password work?
+When completing certain actions on domains with Domain Protection, you'll be asked to enter a verification code. We'll automatically send a one-time password to the email address on your GoDaddy account (in some cases, you may need to select
+Send Password ||| Applies to:
+Account Management
+Account Management
+Help
+Update my GoDaddy account profile
+To help keep your account secure, we recommend that you keep your account profile information up to date. Your profile info includes your name, email and postal addresses, organization, phone numbers and default currency.
+Note:
+Any time you change your profile info, we recommend you also
+check your two-step verification (2SV) phone numbers
+if you've got those set up.
+Go to your GoDaddy
+My Profile
+page. You might be prompted to sign in.
+Below
+My Profile
+, select the information you want to change.
+Required:
+Your
+Primary Mobile Phone
+number must be a mobile number capable of receiving SMS text messages. That's the number we'll send a verification code to when we need to confirm your identity.
+If you're changing your email or Primary Mobile Phone number, we'll show you the email or number we have on file.
+Before
+you select
+Send Verification Code ||| Send Password
+to manually send the one-time password). Enter that code in the verification window to confirm your identity and complete the action on your domain. If you've had 2-step verification (2SV) turned on for at least 24 hours, you'll complete identity verification via 2SV instead of OTP.
+Back to top
+When will I get a one-time password?
+These domain actions are considered high-risk and will prompt for identity verification.
+Delete a domain
+Turn off auto-renew
+Downgrade or remove Domain Protection
+Turn off Domain Privacy
+Change domain contact info
+Only applies when changing the first name, last name, organization or email address of the registrant contact info.
+Add to CashParking
+Unlock a domain
+Export domain list with authorization codes
+Transfer domain to another registrar (away from GoDaddy)
+Transfer domain to another GoDaddy account
+List a domain for sale via List for Sale
+Change nameservers
+Add, edit, or delete DNS records",3.39,1.0,0.9,0.38
+Config 1 - Naive,How do I request a refund from GoDaddy?,"Based on the provided context, here are the steps to request a refund from GoDaddy:
+
+1. If you purchased your product through a mobile app store like the Apple App Store or Google Play, you need to contact that mobile app store to request a refund.
+
+2. For purchases made directly through GoDaddy:
+- Review the refund policy for your specific product.
+- Contact the GoDaddy Guides (by phone, SMS, or chat) to request a refund for your eligible, deleted product.
+
+3. Important notes:
+- Refund requests received by email will not be processed. You must contact GoDaddy directly.
+- You can view your receipts and pending orders in your Order History to help with the refund request.
+- You will need your Support PIN or customer number when contacting GoDaddy.
+
+The context provided the necessary information to answer how to request a refund from GoDaddy. No additional information is needed.","Applies to:
+Account Management
+Account Management
+Help
+Request a refund from GoDaddy
+We're sorry to hear you're looking for a refund! We want to make sure the process goes as smoothly for you as possible.
+Note:
+If you’ve purchased your product through a mobile app store like the Apple App Store or Google Play, you’ll need to
+contact that mobile app store
+to request a refund.
+For purchases through GoDaddy, here’s what you’ll need to do:
+First, we recommend that you review our
+refund policy ||| for your product instead. You’ll be able to keep using it until the end of your subscription — then we'll delete the product and all its files.
+Finally,
+contact our GoDaddy Guides
+to request a refund for your eligible, deleted product.
+Required:
+Refund requests received by email
+will not
+be processed. You must
+contact us by phone, SMS or chat
+to request a refund.
+More info
+You can
+see all your GoDaddy receipts
+and
+view your pending orders
+in your
+Order History
+. ||| Find your Support PIN or customer number, then call us for more help
+Contact GoDaddy customer support
+What is my customer ID number?
+Know my privacy rights
+Learn how we keep your information private
+Privacy Center
+How we use your data
+Your choices about data we collect
+Close my account or products
+Delete your account and products or request a refund
+Delete products in my GoDaddy account
+Request a refund from GoDaddy
+Close my account",1.86,1.0,1.0,0.9
+Config 2 - Optimized,How do I request a refund from GoDaddy?,"Based on the provided context, here are the key steps to request a refund from GoDaddy:
+
+1. First, review the GoDaddy refund policy to check your eligibility for a refund.
+
+2. If eligible, you need to delete the product or service you want refunded. For domain registrations, you need to delete the domain.
+
+3. After deleting the product, contact the GoDaddy Guides (customer support) by phone, SMS or chat to request the refund. Refund requests received by email will not be processed.
+
+4. If you've already closed your GoDaddy account, you cannot request a refund, as account closures cannot be reversed.
+
+The context does not mention any other specific requirements for requesting a refund from GoDaddy. If you need any additional information, you would need to contact GoDaddy's customer support directly.","can not
+be individually deleted or refunded.
+If you’re not eligible for a refund, we recommend that you
+turn off auto-renew
+for your product instead. You’ll be able to keep using it until the end of your subscription — then we'll delete the product and all its files.
+Finally,
+contact our GoDaddy Guides
+to request a refund for your eligible, deleted product.
+Required:
+Refund requests received by email
+will not
+be processed. You must
+contact us by phone, SMS or chat
+to request a refund.
+More info
+You can
+see all your GoDaddy receipts
+and
+view your pending orders
+in your
+Order History
+.
+If you have cancelled all of your products, and no longer want an account,
+close your GoDaddy account
+.
+Share this article ||| Applies to:
+Account Management
+Account Management
+Help
+Request a refund from GoDaddy
+We're sorry to hear you're looking for a refund! We want to make sure the process goes as smoothly for you as possible.
+Note:
+If you’ve purchased your product through a mobile app store like the Apple App Store or Google Play, you’ll need to
+contact that mobile app store
+to request a refund.
+For purchases through GoDaddy, here’s what you’ll need to do:
+First, we recommend that you review our
+refund policy
+to check your eligibility.
+Once you’ve verified your eligibility, you’ll need to
+delete the product or service
+or the
+domain
+you want refunded.
+If you've purchased a subscription that includes multiple products, any changes you make are applied to all products in the subscription. Products included in a subscription
+can not
+be individually deleted or refunded.
+If you’re not eligible for a refund, we recommend that you
+turn off auto-renew ||| Applies to:
+Account Management
+Account Management
+Help
+Close my account
+Closing your GoDaddy account will permanently delete all associated information.
+Warning: You cannot request refunds once you close your account.
+If you're eligible for a refund, please
+contact our GoDaddy Guides
+to request a refund before you close your account. Once your account is closed, your account data is deleted and you will no longer be eligible for a refund as otherwise permitted under our
+refund policy
+.
+Warning:
+Account closures
+can not
+be reversed. Once we delete your data and information, there's no way to retrieve it.
+Required:
+Before closing your account, you must first
+delete all products associated with your account
+.
+For GoDaddy Payments, you must follow the steps in
+Remove GoDaddy Payments
+. After all your products have been deleted, wait at least
+24 hours
+before following these steps.
+When it’s been more than 24 hours since you deleted your products, go to your GoDaddy
+Contact Preferences ||| from
+your GoDaddy account will show here.
+Choose an available tab to view domains in a particular category.
+Each tab will group domains into categories, but the status of individual domains may vary.
+Select the checkbox next to the domain transfers you're canceling. Or, select the checkbox next to
+Domain
+and then choose
+Select All
+.
+Select
+Cancel Transfer
+above your domain list.
+Note:
+Based on the status of your transfer, your view may be slightly different.
+Confirm cancellation by selecting
+Cancel Transfer
+again. If you changed your mind, select
+Keep Transfer
+You'll see confirmation that your domain transfer was canceled.
+Related step
+Interested in registering a new domain?
+Search for the perfect domain
+to get started.
+More info
+After canceling an incoming domain transfer, you might be
+eligible for a refund
+.
+Set up 2-step verification
+for the best security on your domains and account.
+Share this article ||| Data Handling of NPRD.
+You will be responsible for properly disposing the NPRD within 30 days of receipt or when you can no longer rely on Legitimate Interest as the lawful basis of processing NPRD; whichever is sooner.
+How to submit a request for NPRD
+If you wish to submit a request for NPRD, please
+download and complete the NPRD Request Form,
+including all supporting documentation, and submit your completed file to
+whoisrequests@godaddy.com
+.
+Law enforcement or government agency requests for NPRD will require additional verification. Please email
+whoisrequests@godaddy.com
+.for more information.
+Upon receipt of your completed file, GoDaddy will initiate an investigation and respond to a request within 30 days of receipt.
+Requests must only be for current domain registrations. We do not provide historical or archived NPRD through this process.
+Requests must include the exact domain name under review. We do not fulfill partial match requests through this process.",2.01,1.0,1.0,0.6
+Config 3 - MultiQuery,How do I request a refund from GoDaddy?,"Based on the provided context, here are the key points on how to request a refund from GoDaddy:
+
+1. Review the GoDaddy refund policy to check if you are eligible for a refund.
+
+2. You must delete the product or service you want refunded. For domain registrations, you must delete the domain.
+
+3. If the product is part of a subscription, the entire subscription cannot be individually deleted or refunded.
+
+4. If you are not eligible for a refund, you can turn off auto-renew to stop future charges.
+
+5. To request a refund, you must contact GoDaddy Guides by phone, SMS or chat. Refund requests received by email will not be processed.
+
+6. If you have cancelled all your products and want to close your GoDaddy account, you cannot request refunds once the account is closed.
+
+So in summary, the key steps are to check eligibility, delete the product, and then contact GoDaddy Guides by phone, SMS or chat to request the refund. Email requests will not be accepted.","can not
+be individually deleted or refunded.
+If you’re not eligible for a refund, we recommend that you
+turn off auto-renew
+for your product instead. You’ll be able to keep using it until the end of your subscription — then we'll delete the product and all its files.
+Finally,
+contact our GoDaddy Guides
+to request a refund for your eligible, deleted product.
+Required:
+Refund requests received by email
+will not
+be processed. You must
+contact us by phone, SMS or chat
+to request a refund.
+More info
+You can
+see all your GoDaddy receipts
+and
+view your pending orders
+in your
+Order History
+.
+If you have cancelled all of your products, and no longer want an account,
+close your GoDaddy account
+.
+Share this article ||| Applies to:
+Account Management
+Account Management
+Help
+Request a refund from GoDaddy
+We're sorry to hear you're looking for a refund! We want to make sure the process goes as smoothly for you as possible.
+Note:
+If you’ve purchased your product through a mobile app store like the Apple App Store or Google Play, you’ll need to
+contact that mobile app store
+to request a refund.
+For purchases through GoDaddy, here’s what you’ll need to do:
+First, we recommend that you review our
+refund policy
+to check your eligibility.
+Once you’ve verified your eligibility, you’ll need to
+delete the product or service
+or the
+domain
+you want refunded.
+If you've purchased a subscription that includes multiple products, any changes you make are applied to all products in the subscription. Products included in a subscription
+can not
+be individually deleted or refunded.
+If you’re not eligible for a refund, we recommend that you
+turn off auto-renew ||| Applies to:
+Account Management
+Account Management
+Help
+Close my account
+Closing your GoDaddy account will permanently delete all associated information.
+Warning: You cannot request refunds once you close your account.
+If you're eligible for a refund, please
+contact our GoDaddy Guides
+to request a refund before you close your account. Once your account is closed, your account data is deleted and you will no longer be eligible for a refund as otherwise permitted under our
+refund policy
+.
+Warning:
+Account closures
+can not
+be reversed. Once we delete your data and information, there's no way to retrieve it.
+Required:
+Before closing your account, you must first
+delete all products associated with your account
+.
+For GoDaddy Payments, you must follow the steps in
+Remove GoDaddy Payments
+. After all your products have been deleted, wait at least
+24 hours
+before following these steps.
+When it’s been more than 24 hours since you deleted your products, go to your GoDaddy
+Contact Preferences ||| from
+your GoDaddy account will show here.
+Choose an available tab to view domains in a particular category.
+Each tab will group domains into categories, but the status of individual domains may vary.
+Select the checkbox next to the domain transfers you're canceling. Or, select the checkbox next to
+Domain
+and then choose
+Select All
+.
+Select
+Cancel Transfer
+above your domain list.
+Note:
+Based on the status of your transfer, your view may be slightly different.
+Confirm cancellation by selecting
+Cancel Transfer
+again. If you changed your mind, select
+Keep Transfer
+You'll see confirmation that your domain transfer was canceled.
+Related step
+Interested in registering a new domain?
+Search for the perfect domain
+to get started.
+More info
+After canceling an incoming domain transfer, you might be
+eligible for a refund
+.
+Set up 2-step verification
+for the best security on your domains and account.
+Share this article ||| Data Handling of NPRD.
+You will be responsible for properly disposing the NPRD within 30 days of receipt or when you can no longer rely on Legitimate Interest as the lawful basis of processing NPRD; whichever is sooner.
+How to submit a request for NPRD
+If you wish to submit a request for NPRD, please
+download and complete the NPRD Request Form,
+including all supporting documentation, and submit your completed file to
+whoisrequests@godaddy.com
+.
+Law enforcement or government agency requests for NPRD will require additional verification. Please email
+whoisrequests@godaddy.com
+.for more information.
+Upon receipt of your completed file, GoDaddy will initiate an investigation and respond to a request within 30 days of receipt.
+Requests must only be for current domain registrations. We do not provide historical or archived NPRD through this process.
+Requests must include the exact domain name under review. We do not fulfill partial match requests through this process.",2.78,0.5,1.0,0.62
+Config 1 - Naive,What is a one-time password and when is it used?,"According to the provided context, a one-time password (OTP) is a specific authentication code sent to a GoDaddy customer when completing certain actions on domains with Domain Protection. The OTP helps verify the customer's identity and protects the domain from unauthorized actions, such as transferring, disabling Domain Privacy, or making DNS edits.
+
+The context states that a one-time password is used for identity verification when completing certain domain actions. Accounts with 2-step verification (2SV) turned on will not receive a one-time password for identity verification.","Applies to:
+Domains
+Domains
+Help
+What is a one-time password?
+A one-time password, or OTP, might be used to verify your identity on domains with
+Domain Protection
+when completing certain domain actions.
+Select a question to see its answer:
+What is a one-time password?
+What is identity verification?
+How does a one-time password work?
+When will I get a one-time password?
+Where will the one-time password be sent?
+What if I'm not receiving my one-time password? ||| Are there any one-time password limitations?
+What is a one-time password?
+A one-time password is a speficic authentication code sent to you when completing certain actions on domains with
+Domain Protection
+. This unique code lets us verify your identity and helps protect your domains from unauthorized actions, such as transferring a domain, turning off Domain Privacy, or making DNS edits. Accounts with
+2-step verification (2SV)
+turned on won't get a one-time password for identity verification. ||| How does a one-time password work?
+When completing certain actions on domains with Domain Protection, you'll be asked to enter a verification code. We'll automatically send a one-time password to the email address on your GoDaddy account (in some cases, you may need to select
+Send Password",1.65,1.0,1.0,0.833
+Config 2 - Optimized,What is a one-time password and when is it used?,"Based on the provided context, a one-time password (OTP) is a specific authentication code that is sent to you when completing certain actions on domains with Domain Protection. The key points are:
+
+- A one-time password is used for identity verification to ensure only authorized users can complete certain domain actions, such as transferring a domain, changing DNS records, etc.
+
+- The OTP is a unique code that is sent to the email address on your GoDaddy account when you need to verify your identity.
+
+- Entering the correct one-time password allows you to complete the requested domain action.
+
+- If you have 2-step verification (2SV) enabled on your account, you will use that instead of the one-time password for identity verification.
+
+So in summary, a one-time password is an additional security measure used to verify your identity when performing high-risk actions on your domains with Domain Protection.","Applies to:
+Domains
+Domains
+Help
+What is a one-time password?
+A one-time password, or OTP, might be used to verify your identity on domains with
+Domain Protection
+when completing certain domain actions.
+Select a question to see its answer:
+What is a one-time password?
+What is identity verification?
+How does a one-time password work?
+When will I get a one-time password?
+Where will the one-time password be sent?
+What if I'm not receiving my one-time password?
+Are there any one-time password limitations?
+What is a one-time password?
+A one-time password is a speficic authentication code sent to you when completing certain actions on domains with
+Domain Protection
+. This unique code lets us verify your identity and helps protect your domains from unauthorized actions, such as transferring a domain, turning off Domain Privacy, or making DNS edits. Accounts with
+2-step verification (2SV)
+turned on won't get a one-time password for identity verification.
+What is identity verification? ||| 2-step verification (2SV)
+turned on won't get a one-time password for identity verification.
+What is identity verification?
+Identity verification is an additional security measure we use on domains with Domain Protection added to make sure only authorized users can complete certain domain actions. You may have heard of 2-step verification or multi-factor authentication when logging into different accounts online. Identity verification uses that same concept of a secondary verification method to protect your domains and make sure you're an authorized user in the account. The additional identity verification on your domains helps protect your business and brand from unauthorized or malicious actions.
+How does a one-time password work?
+When completing certain actions on domains with Domain Protection, you'll be asked to enter a verification code. We'll automatically send a one-time password to the email address on your GoDaddy account (in some cases, you may need to select
+Send Password ||| If you enter an incorrect one-time password 3 times, you'll be locked out of that action on that domain for 24 hours.
+Related step
+Keep your domains secure by
+upgrading your Domain Protection plan
+.
+Update the contact info on your domains
+to keep everything accurate.
+More info
+Use
+2-step verification
+to protect your entire GoDaddy account.
+Turn on
+auto-renew
+to continue your domain registration uninterrupted.
+Share this article ||| If none of these troubleshooting steps get you to your one-time password, our
+GoDaddy Guides
+are here to help
+.
+Are there any one-time password limitations?
+Yes, there are a few limitations when using one-time passwords.
+Your one-time password is only valid for 60 minutes after it's been requested.
+A maximum of 5 one-time passwords can be sent in a 7-day period per action, per domain.
+Example
+: You changed nameservers on your domain Monday and used a one-time password to complete identity verification. Then you changed nameservers on the same domain 4 more times on Thursday and each time used another one-time password. You'll now be locked out of changing nameservers on that domain until Sunday.
+Note:
+You can still complete other actions on this domain and you can complete actions on other domains, too.
+If you enter an incorrect one-time password 3 times, you'll be locked out of that action on that domain for 24 hours.
+Related step
+Keep your domains secure by ||| Send Password
+to manually send the one-time password). Enter that code in the verification window to confirm your identity and complete the action on your domain. If you've had 2-step verification (2SV) turned on for at least 24 hours, you'll complete identity verification via 2SV instead of OTP.
+Back to top
+When will I get a one-time password?
+These domain actions are considered high-risk and will prompt for identity verification.
+Delete a domain
+Turn off auto-renew
+Downgrade or remove Domain Protection
+Turn off Domain Privacy
+Change domain contact info
+Only applies when changing the first name, last name, organization or email address of the registrant contact info.
+Add to CashParking
+Unlock a domain
+Export domain list with authorization codes
+Transfer domain to another registrar (away from GoDaddy)
+Transfer domain to another GoDaddy account
+List a domain for sale via List for Sale
+Change nameservers
+Add, edit, or delete DNS records",2.06,1.0,1.0,0.6
+Config 3 - MultiQuery,What is a one-time password and when is it used?,"Based on the provided context:
+
+A one-time password (OTP) is a specific authentication code that is sent to you when completing certain actions on domains with Domain Protection. The purpose of the one-time password is to verify your identity and help protect your domains from unauthorized actions, such as transferring a domain, turning off Domain Privacy, or making DNS edits.
+
+The one-time password will be sent to you when you are completing high-risk actions on your domains, such as:
+
+- Deleting a domain
+- Turning off auto-renew
+- Downgrading or removing Domain Protection
+- Turning off Domain Privacy
+- Changing domain contact info
+- Adding to CashParking
+- Unlocking a domain
+- Exporting domain list with authorization codes
+- Transferring domain to another registrar
+- Transferring domain to another GoDaddy account
+- Listing a domain for sale
+- Changing nameservers
+- Adding, editing, or deleting DNS records
+
+The one-time password is used to verify your identity and authorize these high-risk actions on your domains.","Applies to:
+Domains
+Domains
+Help
+What is a one-time password?
+A one-time password, or OTP, might be used to verify your identity on domains with
+Domain Protection
+when completing certain domain actions.
+Select a question to see its answer:
+What is a one-time password?
+What is identity verification?
+How does a one-time password work?
+When will I get a one-time password?
+Where will the one-time password be sent?
+What if I'm not receiving my one-time password?
+Are there any one-time password limitations?
+What is a one-time password?
+A one-time password is a speficic authentication code sent to you when completing certain actions on domains with
+Domain Protection
+. This unique code lets us verify your identity and helps protect your domains from unauthorized actions, such as transferring a domain, turning off Domain Privacy, or making DNS edits. Accounts with
+2-step verification (2SV)
+turned on won't get a one-time password for identity verification.
+What is identity verification? ||| 2-step verification (2SV)
+turned on won't get a one-time password for identity verification.
+What is identity verification?
+Identity verification is an additional security measure we use on domains with Domain Protection added to make sure only authorized users can complete certain domain actions. You may have heard of 2-step verification or multi-factor authentication when logging into different accounts online. Identity verification uses that same concept of a secondary verification method to protect your domains and make sure you're an authorized user in the account. The additional identity verification on your domains helps protect your business and brand from unauthorized or malicious actions.
+How does a one-time password work?
+When completing certain actions on domains with Domain Protection, you'll be asked to enter a verification code. We'll automatically send a one-time password to the email address on your GoDaddy account (in some cases, you may need to select
+Send Password ||| If you enter an incorrect one-time password 3 times, you'll be locked out of that action on that domain for 24 hours.
+Related step
+Keep your domains secure by
+upgrading your Domain Protection plan
+.
+Update the contact info on your domains
+to keep everything accurate.
+More info
+Use
+2-step verification
+to protect your entire GoDaddy account.
+Turn on
+auto-renew
+to continue your domain registration uninterrupted.
+Share this article ||| If none of these troubleshooting steps get you to your one-time password, our
+GoDaddy Guides
+are here to help
+.
+Are there any one-time password limitations?
+Yes, there are a few limitations when using one-time passwords.
+Your one-time password is only valid for 60 minutes after it's been requested.
+A maximum of 5 one-time passwords can be sent in a 7-day period per action, per domain.
+Example
+: You changed nameservers on your domain Monday and used a one-time password to complete identity verification. Then you changed nameservers on the same domain 4 more times on Thursday and each time used another one-time password. You'll now be locked out of changing nameservers on that domain until Sunday.
+Note:
+You can still complete other actions on this domain and you can complete actions on other domains, too.
+If you enter an incorrect one-time password 3 times, you'll be locked out of that action on that domain for 24 hours.
+Related step
+Keep your domains secure by ||| Send Password
+to manually send the one-time password). Enter that code in the verification window to confirm your identity and complete the action on your domain. If you've had 2-step verification (2SV) turned on for at least 24 hours, you'll complete identity verification via 2SV instead of OTP.
+Back to top
+When will I get a one-time password?
+These domain actions are considered high-risk and will prompt for identity verification.
+Delete a domain
+Turn off auto-renew
+Downgrade or remove Domain Protection
+Turn off Domain Privacy
+Change domain contact info
+Only applies when changing the first name, last name, organization or email address of the registrant contact info.
+Add to CashParking
+Unlock a domain
+Export domain list with authorization codes
+Transfer domain to another registrar (away from GoDaddy)
+Transfer domain to another GoDaddy account
+List a domain for sale via List for Sale
+Change nameservers
+Add, edit, or delete DNS records",2.78,1.0,1.0,0.68
+Config 1 - Naive,How do I revoke an SSL certificate?,"Based on the provided context, the steps to revoke an SSL certificate are:
+
+1. Go to your GoDaddy product page.
+2. Select SSL Certificates and then select Manage for the certificate you want to revoke.
+3. Under Certificate Details, select Revoke next to Status.
+4. Select the reason why you're revoking the certificate and then select Revoke Certificate.
+
+The context also notes that you should only revoke the certificate if the secured site is no longer operational or you requested the certificate for the wrong organization. It's recommended to consider rekeying the certificate instead of revoking it if you are changing the certificate's common name or have lost the private key.","Moving your website to a new server
+For information about rekeying your certificate instead of revoking it, see
+Rekey my certificate
+.
+To revoke an SSL certificate
+Go to your GoDaddy
+product page
+.
+Select
+SSL Certificates
+and select
+Manage
+for the certificate you want revoke.
+Under
+Certificate Details
+, select
+Revoke
+next to
+Status
+.
+Select the reason why you're revoking the certificate and then select
+Revoke Certificate
+. ||| We recommend considering revocation only if the secured site is no longer operational or you requested the certificate for the wrong organization. For example, do not revoke the certificate if you are switching certificate types, such as from a Standard to a Premium SSL. You can install the new certificate over the existing one.
+In the following circumstances, you can also
+rekey
+your certificate instead of revoking it:
+Changing the certificate's common name
+Lost your private key ||| Applies to:
+SSL Certificates
+SSL Certificates
+Help
+Revoke an SSL certificate
+Revoking your SSL certificate cancels it and immediately removes HTTPS from the website. The process can not be reversed.
+Warning:
+Depending on your web host, revoking the SSL certificate might cause your website to display errors or become temporarily inaccessible.
+Do you actually need to revoke your certificate?",1.58,1.0,1.0,0.9
+Config 2 - Optimized,How do I revoke an SSL certificate?,"Based on the provided context, here are the steps to revoke an SSL certificate:
+
+1. Go to your GoDaddy product page.
+2. Select SSL Certificates and select Manage for the certificate you want to revoke.
+3. Under Certificate Details, select Revoke next to Status.
+4. Select the reason why you're revoking the certificate and then select Revoke Certificate.
+
+The context also notes that revoking the SSL certificate will cancel it and immediately remove HTTPS from the website. This process cannot be reversed. It also warns that revoking the certificate may cause your website to display errors or become temporarily inaccessible, depending on your web host.
+
+The context recommends considering revocation only if the secured site is no longer operational or you requested the certificate for the wrong organization. It suggests rekeying the certificate instead of revoking it in certain circumstances like changing the common name, losing the private key, or moving the website to a new server.","Applies to:
+SSL Certificates
+SSL Certificates
+Help
+Revoke an SSL certificate
+Revoking your SSL certificate cancels it and immediately removes HTTPS from the website. The process can not be reversed.
+Warning:
+Depending on your web host, revoking the SSL certificate might cause your website to display errors or become temporarily inaccessible.
+Do you actually need to revoke your certificate?
+We recommend considering revocation only if the secured site is no longer operational or you requested the certificate for the wrong organization. For example, do not revoke the certificate if you are switching certificate types, such as from a Standard to a Premium SSL. You can install the new certificate over the existing one.
+In the following circumstances, you can also
+rekey
+your certificate instead of revoking it:
+Changing the certificate's common name
+Lost your private key
+Moving your website to a new server
+For information about rekeying your certificate instead of revoking it, see ||| Changing the certificate's common name
+Lost your private key
+Moving your website to a new server
+For information about rekeying your certificate instead of revoking it, see
+Rekey my certificate
+.
+To revoke an SSL certificate
+Go to your GoDaddy
+product page
+.
+Select
+SSL Certificates
+and select
+Manage
+for the certificate you want revoke.
+Under
+Certificate Details
+, select
+Revoke
+next to
+Status
+.
+Select the reason why you're revoking the certificate and then select
+Revoke Certificate
+.
+If you revoke your certificate within the first 30 days, please contact Customer Service. You may be eligible for in-store credit.
+Share this article ||| Applies to:
+SSL Certificates
+SSL Certificates
+Help
+Cancel my pending SSL certificate request
+If you submitted your SSL certificate request for the wrong domain name and it hasn’t been issued, you can cancel the pending request, which will reset the SSL certificate credit.
+Go to your GoDaddy
+product page
+.
+Select
+Manage All
+next to
+SSL Certificates
+.
+Select the certificate that is pending.
+Under
+Certificate Details
+, next to
+Status
+and
+Pending Verification
+, select
+Cancel
+.
+A
+Certificate request pending cancellation
+banner will appear.
+When your pending request is cancelled, you can then request a new SSL certificate.
+Related steps
+Request an SSL certificate
+.
+Install an SSL certificate
+.
+More info
+How does an SSL certificate work?
+What if I notice a problem with my SSL certificate?
+What happens when my SSL certificate expires?
+Share this article ||| Applies to:
+SSL Certificates
+,
+Account Management
+GoDaddy
+Help
+Turn off auto-renew
+Turn off auto-renew and cancel subscriptions for your products. When you cancel renewal for a product, your subscription will end and you won’t be charged on the next billing date. If you change your mind, you can
+manually renew the product
+.
+Note:
+If you purchased your product through a mobile app store like the Apple App Store or Google Play, you need to
+use that mobile app store
+to make changes to your subscription.
+Go to your
+Renewals and Billing
+page and select
+Manage Subscriptions
+.
+Select the product and then select
+Turn off Auto-Renew
+.
+From the list, select a reason for cancelling the auto-renewal and then select
+Continue to Cancel
+.
+Below
+Confirm your cancellation
+we'll show you the date that your subscription will be cancelled. You can keep using the product until that date, and after that date your product and all associated data will be deleted.
+Select
+Confirm Cancel ||| can not
+be individually deleted or refunded.
+If you’re not eligible for a refund, we recommend that you
+turn off auto-renew
+for your product instead. You’ll be able to keep using it until the end of your subscription — then we'll delete the product and all its files.
+Finally,
+contact our GoDaddy Guides
+to request a refund for your eligible, deleted product.
+Required:
+Refund requests received by email
+will not
+be processed. You must
+contact us by phone, SMS or chat
+to request a refund.
+More info
+You can
+see all your GoDaddy receipts
+and
+view your pending orders
+in your
+Order History
+.
+If you have cancelled all of your products, and no longer want an account,
+close your GoDaddy account
+.
+Share this article",1.8,1.0,1.0,0.62
+Config 3 - MultiQuery,How do I revoke an SSL certificate?,"Based on the context provided:
+
+To revoke an SSL certificate:
+
+1. Go to your GoDaddy product page.
+2. Select SSL Certificates and select Manage for the certificate you want to revoke.
+3. Under Certificate Details, select Revoke next to Status.
+4. Select the reason why you're revoking the certificate and then select Revoke Certificate.
+
+The context states that revoking the SSL certificate will cancel it and immediately remove HTTPS from the website. The process cannot be reversed. It also warns that depending on your web host, revoking the certificate may cause errors or temporary inaccessibility of the website.
+
+The context recommends only considering revocation if the secured site is no longer operational or if you requested the certificate for the wrong organization. It suggests rekeying the certificate instead in certain circumstances like changing the common name, losing the private key, or moving the website to a new server.","Applies to:
+SSL Certificates
+SSL Certificates
+Help
+Revoke an SSL certificate
+Revoking your SSL certificate cancels it and immediately removes HTTPS from the website. The process can not be reversed.
+Warning:
+Depending on your web host, revoking the SSL certificate might cause your website to display errors or become temporarily inaccessible.
+Do you actually need to revoke your certificate?
+We recommend considering revocation only if the secured site is no longer operational or you requested the certificate for the wrong organization. For example, do not revoke the certificate if you are switching certificate types, such as from a Standard to a Premium SSL. You can install the new certificate over the existing one.
+In the following circumstances, you can also
+rekey
+your certificate instead of revoking it:
+Changing the certificate's common name
+Lost your private key
+Moving your website to a new server
+For information about rekeying your certificate instead of revoking it, see ||| Changing the certificate's common name
+Lost your private key
+Moving your website to a new server
+For information about rekeying your certificate instead of revoking it, see
+Rekey my certificate
+.
+To revoke an SSL certificate
+Go to your GoDaddy
+product page
+.
+Select
+SSL Certificates
+and select
+Manage
+for the certificate you want revoke.
+Under
+Certificate Details
+, select
+Revoke
+next to
+Status
+.
+Select the reason why you're revoking the certificate and then select
+Revoke Certificate
+.
+If you revoke your certificate within the first 30 days, please contact Customer Service. You may be eligible for in-store credit.
+Share this article ||| Applies to:
+SSL Certificates
+SSL Certificates
+Help
+Cancel my pending SSL certificate request
+If you submitted your SSL certificate request for the wrong domain name and it hasn’t been issued, you can cancel the pending request, which will reset the SSL certificate credit.
+Go to your GoDaddy
+product page
+.
+Select
+Manage All
+next to
+SSL Certificates
+.
+Select the certificate that is pending.
+Under
+Certificate Details
+, next to
+Status
+and
+Pending Verification
+, select
+Cancel
+.
+A
+Certificate request pending cancellation
+banner will appear.
+When your pending request is cancelled, you can then request a new SSL certificate.
+Related steps
+Request an SSL certificate
+.
+Install an SSL certificate
+.
+More info
+How does an SSL certificate work?
+What if I notice a problem with my SSL certificate?
+What happens when my SSL certificate expires?
+Share this article ||| Applies to:
+SSL Certificates
+,
+Account Management
+GoDaddy
+Help
+Turn off auto-renew
+Turn off auto-renew and cancel subscriptions for your products. When you cancel renewal for a product, your subscription will end and you won’t be charged on the next billing date. If you change your mind, you can
+manually renew the product
+.
+Note:
+If you purchased your product through a mobile app store like the Apple App Store or Google Play, you need to
+use that mobile app store
+to make changes to your subscription.
+Go to your
+Renewals and Billing
+page and select
+Manage Subscriptions
+.
+Select the product and then select
+Turn off Auto-Renew
+.
+From the list, select a reason for cancelling the auto-renewal and then select
+Continue to Cancel
+.
+Below
+Confirm your cancellation
+we'll show you the date that your subscription will be cancelled. You can keep using the product until that date, and after that date your product and all associated data will be deleted.
+Select
+Confirm Cancel ||| can not
+be individually deleted or refunded.
+If you’re not eligible for a refund, we recommend that you
+turn off auto-renew
+for your product instead. You’ll be able to keep using it until the end of your subscription — then we'll delete the product and all its files.
+Finally,
+contact our GoDaddy Guides
+to request a refund for your eligible, deleted product.
+Required:
+Refund requests received by email
+will not
+be processed. You must
+contact us by phone, SMS or chat
+to request a refund.
+More info
+You can
+see all your GoDaddy receipts
+and
+view your pending orders
+in your
+Order History
+.
+If you have cancelled all of your products, and no longer want an account,
+close your GoDaddy account
+.
+Share this article",3.16,1.0,1.0,0.58
+Config 1 - Naive,How do I update my GoDaddy account profile?,"Based on the provided context:
+
+To update your GoDaddy account profile, you can:
+
+1. Go to your GoDaddy My Profile page.
+
+2. Change the email or phone number you want to use.
+
+3. Select ""Send Verification Code"".
+
+4. Enter the verification code sent to your updated email or number to confirm the new information.
+
+5. For all other profile information, update as needed and select ""Update"" to save the changes.
+
+The context notes that changes to your account profile do not carry over to two-step verification, so you may also need to update your 2SV phone number separately.","Applies to:
+Account Management
+Account Management
+Help
+Update my GoDaddy account profile
+To help keep your account secure, we recommend that you keep your account profile information up to date. Your profile info includes your name, email and postal addresses, organization, phone numbers and default currency.
+Note:
+Any time you change your profile info, we recommend you also
+check your two-step verification (2SV) phone numbers
+if you've got those set up.
+Go to your GoDaddy
+My Profile ||| , change the email or phone number to the one you want to use and
+then
+select
+Send Verification Code
+. Then we'll send that code to your updated email or number. Follow the steps to confirm the new information.
+Your
+Home Phone
+can be a landline. Extensions are not supported.
+For all other profile info, update the information as needed, then select
+Update
+. Your changes are saved.
+Related steps
+Changes to your GoDaddy account profile
+do not ||| carry over to two-step verification. If you changed your phone number then you might also need to
+update your number for 2SV
+.
+Changes to your GoDaddy account email address
+do not
+update your domain name registrant information. Here's
+how to change your domain contact information
+.
+If you can't change your email address because you can't sign in to your account or receive password resets,
+fill out our Regain Access form
+.
+More info
+Change my subscription payment method",1.57,1.0,1.0,0.767
+Config 2 - Optimized,How do I update my GoDaddy account profile?,"According to the provided context, here are the steps to update your GoDaddy account profile:
+
+1. Go to your GoDaddy ""My Profile"" page. You may be prompted to sign in.
+
+2. Under ""My Profile"", select the information you want to change, such as your name, email, phone numbers, etc.
+
+3. If you're changing your email or primary mobile phone number, the current information will be shown. Change it to the new information you want to use.
+
+4. Select ""Send Verification Code"" and enter the code sent to the new email or phone number to confirm the change.
+
+5. For other profile information, simply update it as needed and select ""Update"" to save the changes.
+
+The context notes that changes to your account email or phone number do not carry over to two-step verification, so you may need to update that separately.
+
+Let me know if you need any clarification or have additional questions!","More info
+If you have more than one GoDaddy account,
+contact a GoDaddy Guide
+to merge your accounts.
+Share this article ||| Applies to:
+Account Management
+Account Management
+Help
+Update my GoDaddy account profile
+To help keep your account secure, we recommend that you keep your account profile information up to date. Your profile info includes your name, email and postal addresses, organization, phone numbers and default currency.
+Note:
+Any time you change your profile info, we recommend you also
+check your two-step verification (2SV) phone numbers
+if you've got those set up.
+Go to your GoDaddy
+My Profile
+page. You might be prompted to sign in.
+Below
+My Profile
+, select the information you want to change.
+Required:
+Your
+Primary Mobile Phone
+number must be a mobile number capable of receiving SMS text messages. That's the number we'll send a verification code to when we need to confirm your identity.
+If you're changing your email or Primary Mobile Phone number, we'll show you the email or number we have on file.
+Before
+you select
+Send Verification Code ||| If you're changing your email or Primary Mobile Phone number, we'll show you the email or number we have on file.
+Before
+you select
+Send Verification Code
+, change the email or phone number to the one you want to use and
+then
+select
+Send Verification Code
+. Then we'll send that code to your updated email or number. Follow the steps to confirm the new information.
+Your
+Home Phone
+can be a landline. Extensions are not supported.
+For all other profile info, update the information as needed, then select
+Update
+. Your changes are saved.
+Related steps
+Changes to your GoDaddy account profile
+do not
+carry over to two-step verification. If you changed your phone number then you might also need to
+update your number for 2SV
+.
+Changes to your GoDaddy account email address
+do not
+update your domain name registrant information. Here's
+how to change your domain contact information
+.
+If you can't change your email address because you can't sign in to your account or receive password resets, ||| Account Management
+Help
+Most popular Account Management articles
+These Account Management articles are popular with customers just like you.
+Invite a delegate to access my GoDaddy account
+Cancel an identity verification method
+Sign in to my GoDaddy account
+Contact GoDaddy customer support
+Troubleshoot: Identity verification methods
+Troubleshoot my account
+Find solutions to common problems
+Reset my GoDaddy password
+I forgot my username
+I can't sign in to my GoDaddy account
+Troubleshoot: Identity verification methods
+Regain access to my domain or my GoDaddy account
+Explore my account
+Set up your account and open your products
+Dive in: Browse essential articles
+Create a GoDaddy account
+Sign in to my GoDaddy account
+Update my GoDaddy account profile
+Open my product
+Keep my account secure
+Change your account password and enhance security with 2-step verification
+Change my GoDaddy account password
+Check my GoDaddy account activity ||| Manage my billing information
+Add, change and update your payment methods and view your receipts
+Add a payment method to my GoDaddy account
+Change my subscription payment method
+Change my credit card expiration date or billing address
+Delete a payment method
+View my GoDaddy receipts
+Contact customer support
+Find your Support PIN or customer number, then call us for more help
+Contact GoDaddy customer support
+What is my customer ID number?
+Know my privacy rights
+Learn how we keep your information private
+Privacy Center
+How we use your data
+Your choices about data we collect
+Close my account or products
+Delete your account and products or request a refund
+Delete products in my GoDaddy account
+Request a refund from GoDaddy
+Close my account",1.86,1.0,1.0,0.6
+Config 3 - MultiQuery,How do I update my GoDaddy account profile?,"Based on the provided context, here are the steps to update your GoDaddy account profile:
+
+1. Go to your GoDaddy ""My Profile"" page. You may be prompted to sign in.
+
+2. Below ""My Profile"", select the information you want to change, such as your name, email, phone numbers, etc.
+
+3. If you're changing your email or primary mobile phone number, the current information will be displayed. Change it to the new information you want to use.
+
+4. Before updating the email or primary mobile number, select ""Send Verification Code"". GoDaddy will send a code to the new email or phone number for you to confirm the change.
+
+5. For other profile information, simply update the fields as needed and then select ""Update"" to save the changes.
+
+The context provided the detailed steps to update your GoDaddy account profile, so I have the information needed to answer your question.","More info
+If you have more than one GoDaddy account,
+contact a GoDaddy Guide
+to merge your accounts.
+Share this article ||| Applies to:
+Account Management
+Account Management
+Help
+Update my GoDaddy account profile
+To help keep your account secure, we recommend that you keep your account profile information up to date. Your profile info includes your name, email and postal addresses, organization, phone numbers and default currency.
+Note:
+Any time you change your profile info, we recommend you also
+check your two-step verification (2SV) phone numbers
+if you've got those set up.
+Go to your GoDaddy
+My Profile
+page. You might be prompted to sign in.
+Below
+My Profile
+, select the information you want to change.
+Required:
+Your
+Primary Mobile Phone
+number must be a mobile number capable of receiving SMS text messages. That's the number we'll send a verification code to when we need to confirm your identity.
+If you're changing your email or Primary Mobile Phone number, we'll show you the email or number we have on file.
+Before
+you select
+Send Verification Code ||| If you're changing your email or Primary Mobile Phone number, we'll show you the email or number we have on file.
+Before
+you select
+Send Verification Code
+, change the email or phone number to the one you want to use and
+then
+select
+Send Verification Code
+. Then we'll send that code to your updated email or number. Follow the steps to confirm the new information.
+Your
+Home Phone
+can be a landline. Extensions are not supported.
+For all other profile info, update the information as needed, then select
+Update
+. Your changes are saved.
+Related steps
+Changes to your GoDaddy account profile
+do not
+carry over to two-step verification. If you changed your phone number then you might also need to
+update your number for 2SV
+.
+Changes to your GoDaddy account email address
+do not
+update your domain name registrant information. Here's
+how to change your domain contact information
+.
+If you can't change your email address because you can't sign in to your account or receive password resets, ||| Account Management
+Help
+Most popular Account Management articles
+These Account Management articles are popular with customers just like you.
+Invite a delegate to access my GoDaddy account
+Cancel an identity verification method
+Sign in to my GoDaddy account
+Contact GoDaddy customer support
+Troubleshoot: Identity verification methods
+Troubleshoot my account
+Find solutions to common problems
+Reset my GoDaddy password
+I forgot my username
+I can't sign in to my GoDaddy account
+Troubleshoot: Identity verification methods
+Regain access to my domain or my GoDaddy account
+Explore my account
+Set up your account and open your products
+Dive in: Browse essential articles
+Create a GoDaddy account
+Sign in to my GoDaddy account
+Update my GoDaddy account profile
+Open my product
+Keep my account secure
+Change your account password and enhance security with 2-step verification
+Change my GoDaddy account password
+Check my GoDaddy account activity ||| Manage my billing information
+Add, change and update your payment methods and view your receipts
+Add a payment method to my GoDaddy account
+Change my subscription payment method
+Change my credit card expiration date or billing address
+Delete a payment method
+View my GoDaddy receipts
+Contact customer support
+Find your Support PIN or customer number, then call us for more help
+Contact GoDaddy customer support
+What is my customer ID number?
+Know my privacy rights
+Learn how we keep your information private
+Privacy Center
+How we use your data
+Your choices about data we collect
+Close my account or products
+Delete your account and products or request a refund
+Delete products in my GoDaddy account
+Request a refund from GoDaddy
+Close my account",2.36,1.0,1.0,0.6
+Config 1 - Naive,How do I remove GoDaddy Payments from my account?,"Based on the provided context, here are the steps to remove GoDaddy Payments from your account:
+
+1. If you have GoDaddy Payments enabled in your Websites + Marketing or Managed Ecommerce for WordPress store, you can disconnect it by following these steps:
+
+For Websites + Marketing:
+- Sign in to your Dashboard
+- Next to GoDaddy Payments, select ""Disconnect""
+- Select ""OK"" to remove it as a payment option
+
+For Managed Ecommerce for WordPress:
+- Sign in to your Dashboard
+- In the left-hand navigation, select ""WooCommerce""
+- Under ""Settings"", select ""Payments""
+- Under ""Method"", locate ""GoDaddy Payments"" and toggle it to the ""off"" position
+
+2. If you need to delete GoDaddy Payments completely from your account, the context states you should contact GoDaddy for assistance.
+
+The provided context does not contain information on how to completely remove GoDaddy Payments from your account. You would need to contact GoDaddy support for help with that.","Enabled
+to the off position.
+Remove GoDaddy Payments from your GoDaddy account
+If you need to delete GoDaddy Payments completely from your account, please
+contact us
+for assistance.
+More info
+Sign up again for
+GoDaddy Payments
+.
+Connect
+to my bank account.
+Read more
+about GoDaddy Payments
+.
+Share this article ||| Applies to:
+Account Management
+,
+GoDaddy Payments
+GoDaddy
+Help
+Remove GoDaddy Payments
+Currently, GoDaddy Payments is a free feature that you can activate in various GoDaddy products, like Websites + Marketing and Managed Hosting for WordPress.
+Disconnecting GoDaddy Payments removes it as a payment option in your store. Then if you decide later that you’d like to use it again, you’ll already be set up! We can also help you remove GoDaddy Payments completely from your GoDaddy account. ||| Remove GoDaddy Payments from your Websites + Marketing store
+Sign in to your Dashboard from
+Websites + Marketing
+.
+Next to GoDaddy Payments, select
+Disconnect
+.
+Select
+OK
+to remove it as a payment option in your store.
+Remove GoDaddy Payments from your Managed Ecommerce for WordPress store
+Sign in to your Dashboard from
+Managed Ecommerce for WordPress
+.
+In the left-hand navigation, select
+WooCommerce
+.
+Under
+Settings
+, select
+Payments
+.
+Under
+Method
+, locate
+GoDaddy Payments
+and then toggle",2.06,0.5,0.9,0.933
+Config 2 - Optimized,How do I remove GoDaddy Payments from my account?,"Based on the provided context, here are the steps to remove GoDaddy Payments from your account:
+
+For Websites + Marketing:
+1. Sign in to your Dashboard from Websites + Marketing.
+2. Next to GoDaddy Payments, select ""Disconnect"".
+3. Select ""OK"" to remove it as a payment option in your store.
+
+For Managed Ecommerce for WordPress:
+1. Sign in to your Dashboard from Managed Ecommerce for WordPress.
+2. In the left-hand navigation, select ""WooCommerce"".
+3. Under ""Settings"", select ""Payments"".
+4. Under ""Method"", locate ""GoDaddy Payments"" and toggle ""Enabled"" to the off position.
+
+If you need to delete GoDaddy Payments completely from your GoDaddy account, the context states you should contact GoDaddy customer support for assistance.","Applies to:
+Account Management
+,
+GoDaddy Payments
+GoDaddy
+Help
+Remove GoDaddy Payments
+Currently, GoDaddy Payments is a free feature that you can activate in various GoDaddy products, like Websites + Marketing and Managed Hosting for WordPress.
+Disconnecting GoDaddy Payments removes it as a payment option in your store. Then if you decide later that you’d like to use it again, you’ll already be set up! We can also help you remove GoDaddy Payments completely from your GoDaddy account.
+Remove GoDaddy Payments from your Websites + Marketing store
+Sign in to your Dashboard from
+Websites + Marketing
+.
+Next to GoDaddy Payments, select
+Disconnect
+.
+Select
+OK
+to remove it as a payment option in your store.
+Remove GoDaddy Payments from your Managed Ecommerce for WordPress store
+Sign in to your Dashboard from
+Managed Ecommerce for WordPress
+.
+In the left-hand navigation, select
+WooCommerce
+.
+Under
+Settings
+, select
+Payments
+.
+Under
+Method
+, locate
+GoDaddy Payments
+and then toggle
+Enabled ||| Managed Ecommerce for WordPress
+.
+In the left-hand navigation, select
+WooCommerce
+.
+Under
+Settings
+, select
+Payments
+.
+Under
+Method
+, locate
+GoDaddy Payments
+and then toggle
+Enabled
+to the off position.
+Remove GoDaddy Payments from your GoDaddy account
+If you need to delete GoDaddy Payments completely from your account, please
+contact us
+for assistance.
+More info
+Sign up again for
+GoDaddy Payments
+.
+Connect
+to my bank account.
+Read more
+about GoDaddy Payments
+.
+Share this article ||| can not
+be individually deleted or refunded.
+If you’re not eligible for a refund, we recommend that you
+turn off auto-renew
+for your product instead. You’ll be able to keep using it until the end of your subscription — then we'll delete the product and all its files.
+Finally,
+contact our GoDaddy Guides
+to request a refund for your eligible, deleted product.
+Required:
+Refund requests received by email
+will not
+be processed. You must
+contact us by phone, SMS or chat
+to request a refund.
+More info
+You can
+see all your GoDaddy receipts
+and
+view your pending orders
+in your
+Order History
+.
+If you have cancelled all of your products, and no longer want an account,
+close your GoDaddy account
+.
+Share this article ||| Applies to:
+Account Management
+Account Management
+Help
+Close my account
+Closing your GoDaddy account will permanently delete all associated information.
+Warning: You cannot request refunds once you close your account.
+If you're eligible for a refund, please
+contact our GoDaddy Guides
+to request a refund before you close your account. Once your account is closed, your account data is deleted and you will no longer be eligible for a refund as otherwise permitted under our
+refund policy
+.
+Warning:
+Account closures
+can not
+be reversed. Once we delete your data and information, there's no way to retrieve it.
+Required:
+Before closing your account, you must first
+delete all products associated with your account
+.
+For GoDaddy Payments, you must follow the steps in
+Remove GoDaddy Payments
+. After all your products have been deleted, wait at least
+24 hours
+before following these steps.
+When it’s been more than 24 hours since you deleted your products, go to your GoDaddy
+Contact Preferences ||| Manage my billing information
+Add, change and update your payment methods and view your receipts
+Add a payment method to my GoDaddy account
+Change my subscription payment method
+Change my credit card expiration date or billing address
+Delete a payment method
+View my GoDaddy receipts
+Contact customer support
+Find your Support PIN or customer number, then call us for more help
+Contact GoDaddy customer support
+What is my customer ID number?
+Know my privacy rights
+Learn how we keep your information private
+Privacy Center
+How we use your data
+Your choices about data we collect
+Close my account or products
+Delete your account and products or request a refund
+Delete products in my GoDaddy account
+Request a refund from GoDaddy
+Close my account",1.96,0.5,1.0,0.78
+Config 3 - MultiQuery,How do I remove GoDaddy Payments from my account?,"Based on the provided context, here are the steps to remove GoDaddy Payments from your account:
+
+For Websites + Marketing:
+1. Sign in to your Dashboard from Websites + Marketing.
+2. Next to GoDaddy Payments, select ""Disconnect"".
+3. Select ""OK"" to remove it as a payment option in your store.
+
+For Managed Ecommerce for WordPress:
+1. Sign in to your Dashboard from Managed Ecommerce for WordPress. 
+2. In the left-hand navigation, select ""WooCommerce"".
+3. Under ""Settings"", select ""Payments"".
+4. Under ""Method"", locate ""GoDaddy Payments"" and toggle it to the ""off"" position.
+
+If you need to delete GoDaddy Payments completely from your account, the context states you should contact GoDaddy customer support for assistance.","Applies to:
+Account Management
+,
+GoDaddy Payments
+GoDaddy
+Help
+Remove GoDaddy Payments
+Currently, GoDaddy Payments is a free feature that you can activate in various GoDaddy products, like Websites + Marketing and Managed Hosting for WordPress.
+Disconnecting GoDaddy Payments removes it as a payment option in your store. Then if you decide later that you’d like to use it again, you’ll already be set up! We can also help you remove GoDaddy Payments completely from your GoDaddy account.
+Remove GoDaddy Payments from your Websites + Marketing store
+Sign in to your Dashboard from
+Websites + Marketing
+.
+Next to GoDaddy Payments, select
+Disconnect
+.
+Select
+OK
+to remove it as a payment option in your store.
+Remove GoDaddy Payments from your Managed Ecommerce for WordPress store
+Sign in to your Dashboard from
+Managed Ecommerce for WordPress
+.
+In the left-hand navigation, select
+WooCommerce
+.
+Under
+Settings
+, select
+Payments
+.
+Under
+Method
+, locate
+GoDaddy Payments
+and then toggle
+Enabled ||| Managed Ecommerce for WordPress
+.
+In the left-hand navigation, select
+WooCommerce
+.
+Under
+Settings
+, select
+Payments
+.
+Under
+Method
+, locate
+GoDaddy Payments
+and then toggle
+Enabled
+to the off position.
+Remove GoDaddy Payments from your GoDaddy account
+If you need to delete GoDaddy Payments completely from your account, please
+contact us
+for assistance.
+More info
+Sign up again for
+GoDaddy Payments
+.
+Connect
+to my bank account.
+Read more
+about GoDaddy Payments
+.
+Share this article ||| can not
+be individually deleted or refunded.
+If you’re not eligible for a refund, we recommend that you
+turn off auto-renew
+for your product instead. You’ll be able to keep using it until the end of your subscription — then we'll delete the product and all its files.
+Finally,
+contact our GoDaddy Guides
+to request a refund for your eligible, deleted product.
+Required:
+Refund requests received by email
+will not
+be processed. You must
+contact us by phone, SMS or chat
+to request a refund.
+More info
+You can
+see all your GoDaddy receipts
+and
+view your pending orders
+in your
+Order History
+.
+If you have cancelled all of your products, and no longer want an account,
+close your GoDaddy account
+.
+Share this article ||| Applies to:
+Account Management
+Account Management
+Help
+Close my account
+Closing your GoDaddy account will permanently delete all associated information.
+Warning: You cannot request refunds once you close your account.
+If you're eligible for a refund, please
+contact our GoDaddy Guides
+to request a refund before you close your account. Once your account is closed, your account data is deleted and you will no longer be eligible for a refund as otherwise permitted under our
+refund policy
+.
+Warning:
+Account closures
+can not
+be reversed. Once we delete your data and information, there's no way to retrieve it.
+Required:
+Before closing your account, you must first
+delete all products associated with your account
+.
+For GoDaddy Payments, you must follow the steps in
+Remove GoDaddy Payments
+. After all your products have been deleted, wait at least
+24 hours
+before following these steps.
+When it’s been more than 24 hours since you deleted your products, go to your GoDaddy
+Contact Preferences ||| Manage my billing information
+Add, change and update your payment methods and view your receipts
+Add a payment method to my GoDaddy account
+Change my subscription payment method
+Change my credit card expiration date or billing address
+Delete a payment method
+View my GoDaddy receipts
+Contact customer support
+Find your Support PIN or customer number, then call us for more help
+Contact GoDaddy customer support
+What is my customer ID number?
+Know my privacy rights
+Learn how we keep your information private
+Privacy Center
+How we use your data
+Your choices about data we collect
+Close my account or products
+Delete your account and products or request a refund
+Delete products in my GoDaddy account
+Request a refund from GoDaddy
+Close my account",2.57,1.0,1.0,0.82
