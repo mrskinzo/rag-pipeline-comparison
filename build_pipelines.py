@@ -69,7 +69,7 @@ def multi_query_retrieve(collection, query, k):
     response = client.messages.create(
         model="claude-3-haiku-20240307",
         max_tokens=150,
-        messages=[{"role": "user", "content": 
+        messages=[{"role": "user", "content":
             f"Write 2 alternative phrasings of this question. Return only the questions, one per line:\n{query}"}]
     )
     variants = [query] + response.content[0].text.strip().split("\n")[:2]
