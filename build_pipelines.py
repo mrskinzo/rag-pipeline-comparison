@@ -36,7 +36,7 @@ def chunk_articles(chunk_size, chunk_overlap):
                 "text": split,
                 "source": article["url"],
                 "title": article["title"],
-                "id": f"{article['url']}_{i}"
+                "id": f"{abs(hash(article['url']))}_{i}"
             })
     return chunks
 
