@@ -1,6 +1,6 @@
 # Makefile with common project tasks
 
-.PHONY: setup scrape inspect build test eval clean
+.PHONY: setup scrape inspect test eval clean
 
 setup:
 	python -m pip install --upgrade pip
@@ -11,9 +11,6 @@ scrape:
 
 inspect:
 	python inspect_data.py
-
-build:
-	python build_pipelines.py
 
 eval:
 	python evaluate.py
