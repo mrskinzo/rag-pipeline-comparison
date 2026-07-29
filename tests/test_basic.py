@@ -9,12 +9,11 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from scrape_articles import is_article_url
+from rag_core import CONFIG_PRESETS, stable_id
+
 
 # ── scrape_articles helpers ────────────────────────────────────────────────
-
-def is_article_url(href):
-    return bool(re.search(r'/help/[a-z0-9-]+-\d+$', href))
-
 
 def test_is_article_url_valid():
     assert is_article_url("https://www.godaddy.com/help/turn-off-auto-renew-4562")
@@ -33,34 +32,38 @@ def test_is_article_url_invalid():
 def test_chunk_id_no_special_chars():
     """Chunk IDs must not contain characters that break ChromaDB."""
     url = "https://www.godaddy.com/help/some-article-1234"
-    chunk_id = f"{abs(hash(url))}_0"
-    # ChromaDB IDs should only contain alphanumerics and underscores/hyphens
+    chunk_id = f"{stable_id(url)}_0"
     assert re.match(r'^[\w-]+$', chunk_id), f"Invalid chunk ID: {chunk_id}"
 
 
 def test_chunk_id_is_deterministic():
     url = "https://www.godaddy.com/help/some-article-1234"
-    id1 = f"{abs(hash(url))}_0"
-    id2 = f"{abs(hash(url))}_0"
-    assert id1 == id2
+    assert f"{stable_id(url)}_0" == f"{stable_id(url)}_0"
 
 
-# ── chunking logic ─────────────────────────────────────────────────────────
-
-def test_chunk_overlap_less_than_size():
-    chunk_size = 1000
-    chunk_overlap = 200
-    assert chunk_overlap < chunk_size
-
-
-def test_naive_config_params():
-    chunk_size = 500
-    chunk_overlap = 0
-    assert chunk_size > 0
-    assert chunk_overlap == 0
+def test_stable_id_known_value():
+    """sha1-based IDs are stable across processes, unlike hash()."""
+    import hashlib
+    url = "https://www.godaddy.com/help/some-article-1234"
+    expected = hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
+    assert stable_id(url) == expected
 
 
-def test_optimized_config_params():
-    chunk_size = 1000
-    chunk_overlap = 200
-    assert chunk_size > chunk_overlap
+# ── config presets ─────────────────────────────────────────────────────────
+
+def test_preset_keys():
+    assert list(CONFIG_PRESETS) == ["naive", "optimized", "mmr", "multiquery"]
+
+
+def test_preset_values_match_readme():
+    assert CONFIG_PRESETS["naive"]["chunk_size"] == 256
+    assert CONFIG_PRESETS["naive"]["chunk_overlap"] == 32
+    assert CONFIG_PRESETS["naive"]["k"] == 3
+    assert CONFIG_PRESETS["optimized"]["chunk_size"] == 512
+    assert CONFIG_PRESETS["mmr"]["retrieval"] == "mmr"
+    assert CONFIG_PRESETS["multiquery"]["retrieval"] == "multiquery"
+
+
+def test_preset_overlap_less_than_size():
+    for preset in CONFIG_PRESETS.values():
+        assert 0 <= preset["chunk_overlap"] < preset["chunk_size"]
