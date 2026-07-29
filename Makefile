@@ -1,6 +1,6 @@
 # Makefile with common project tasks
 
-.PHONY: setup scrape inspect build test eval clean
+.PHONY: setup scrape inspect build eval viz test verify clean
 
 setup:
 	python -m pip install --upgrade pip
@@ -18,9 +18,15 @@ build:
 eval:
 	python evaluate.py
 
+viz:
+	python visualize_results.py
+
 test:
 	pytest
 
+verify:
+	python verify_setup.py
+
 clean:
-	rm -rf __pycache__
-	rm -f evaluation_results.csv articles.json data.json
+	rm -rf __pycache__ .pytest_cache .cache chroma_db reports
+	rm -f data.json

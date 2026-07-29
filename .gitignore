@@ -1,5 +1,21 @@
+# environment
 .env
+.venv/
+.env/
+
+# python
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# project artifacts
+.cache/
 chroma_db/
+reports/
+
+# OS / editor
 .DS_Store
+.idea/
+.vscode/

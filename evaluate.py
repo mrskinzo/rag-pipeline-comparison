@@ -1,36 +1,27 @@
-"""
-evaluate.py
-Full evaluation of 3 RAG configurations across 10 questions.
-Metrics: Faithfulness, Answer Relevancy, Context Precision, Latency
-Results saved to evaluation_results.csv
-Runtime: ~5-8 minutes
+"""Evaluate RAG configurations across a fixed question set.
+
+Metrics: faithfulness, answer relevancy, context precision,
+answer correctness (all LLM-as-judge), plus end-to-end latency.
+Results are written to a CSV (default: evaluation_results.csv).
 """
 
-import json
+import argparse
 import time
-import os
-from typing import List, Dict
 
 import pandas as pd
-from dotenv import load_dotenv
-import anthropic
-import chromadb
-from sentence_transformers import SentenceTransformer
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-load_dotenv()
+from rag_core import (
+    CONFIG_PRESETS,
+    build_collection,
+    generate,
+    load_articles,
+    run_retrieval,
+    score_answer_correctness,
+    score_answer_relevancy,
+    score_context_precision,
+    score_faithfulness,
+)
 
-# ── SETUP ──────────────────────────────────────────────────────────────────
-CLIENT = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
-embedder = SentenceTransformer("all-MiniLM-L6-v2")
-db = chromadb.Client()
-
-SYSTEM_PROMPT = """You are a GoDaddy customer support assistant.
-Answer the question using only the provided context.
-If the context doesn't contain enough information, say so clearly.
-Be concise and direct."""
-
-# ── TEST QUESTIONS ─────────────────────────────────────────────────────────
 TEST_QUESTIONS = [
     "How do I turn off auto-renew for my domain?",
     "How do I cancel a domain transfer?",
@@ -44,160 +35,69 @@ TEST_QUESTIONS = [
     "How do I remove GoDaddy Payments from my account?",
 ]
 
-# ── CHUNKING ───────────────────────────────────────────────────────────────
-def chunk_articles(articles: List[Dict], chunk_size: int, chunk_overlap: int) -> List[Dict]:
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk_size,
-        chunk_overlap=chunk_overlap
-    )
-    chunks = []
-    for article in articles:
-        for i, split in enumerate(splitter.split_text(article["content"])):
-            chunks.append({
-                "text": split,
-                "source": article["url"],
-                "title": article["title"],
-                "id": f"{abs(hash(article['url']))}_{i}"
-            })
-    return chunks
+METRIC_COLUMNS = ["faithfulness", "answer_relevancy", "context_precision",
+                  "answer_correctness", "latency"]
 
 
-def build_collection(name: str, articles: List[Dict], chunk_size: int, chunk_overlap: int):
-    try:
-        db.delete_collection(name)
-    except Exception:
-        pass
-    collection = db.create_collection(name)
-    chunks = chunk_articles(articles, chunk_size, chunk_overlap)
-    texts = [c["text"] for c in chunks]
-    embeddings = embedder.encode(texts, show_progress_bar=False).tolist()
-    collection.add(
-        embeddings=embeddings,
-        documents=texts,
-        metadatas=[{"source": c["source"], "title": c["title"]} for c in chunks],
-        ids=[c["id"] for c in chunks]
-    )
-    print(f"  {name}: {len(chunks)} chunks")
-    return collection
-
-# ── RETRIEVAL ──────────────────────────────────────────────────────────────
-def retrieve(collection, query: str, k: int) -> List[str]:
-    embedding = embedder.encode(query).tolist()
-    results = collection.query(query_embeddings=[embedding], n_results=k)
-    return results["documents"][0]
+def load_questions(path: str) -> list:
+    """Read one question per non-empty line."""
+    with open(path) as f:
+        return [line.strip() for line in f if line.strip()]
 
 
-def multi_query_retrieve(collection, query: str, k: int) -> List[str]:
-    response = CLIENT.messages.create(
-        model="claude-3-haiku-20240307",
-        max_tokens=150,
-        messages=[{"role": "user", "content":
-            f"Write 2 alternative phrasings of this question. Return only the questions, one per line:\n{query}"}]
-    )
-    variants = [query] + [v for v in response.content[0].text.strip().split("\n") if v.strip()][:2]
-    seen, all_chunks = set(), []
-    for q in variants:
-        for chunk in retrieve(collection, q, k):
-            if chunk not in seen:
-                seen.add(chunk)
-                all_chunks.append(chunk)
-    return all_chunks[:k]
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Evaluate RAG configurations.")
+    parser.add_argument("--configs", nargs="*", default=list(CONFIG_PRESETS),
+                        choices=list(CONFIG_PRESETS),
+                        help="which config presets to evaluate")
+    parser.add_argument("--limit", type=int, default=None,
+                        help="evaluate only the first N questions")
+    parser.add_argument("--questions-file", type=str, default=None,
+                        help="file with one question per line (default: built-in set)")
+    parser.add_argument("--articles", type=str, default="articles.json",
+                        help="path to the scraped articles JSON")
+    parser.add_argument("--output", type=str, default="evaluation_results.csv",
+                        help="output CSV path")
+    parser.add_argument("--no-persist", action="store_true",
+                        help="use an in-memory Chroma client instead of chroma_db/")
+    args = parser.parse_args()
 
-# ── GENERATION ─────────────────────────────────────────────────────────────
-def generate(question: str, chunks: List[str]) -> str:
-    context = "\n\n---\n\n".join(chunks)
-    response = CLIENT.messages.create(
-        model="claude-3-haiku-20240307",
-        max_tokens=400,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": f"Context:\n{context}\n\nQuestion: {question}"}]
-    )
-    return response.content[0].text
+    questions = load_questions(args.questions_file) if args.questions_file else TEST_QUESTIONS
+    if args.limit:
+        questions = questions[:args.limit]
+    persist = not args.no_persist
 
-# ── METRICS ────────────────────────────────────────────────────────────────
-def call_claude_score(prompt: str) -> float:
-    """Ask Claude for a 0-1 score. Returns float."""
-    try:
-        response = CLIENT.messages.create(
-            model="claude-3-haiku-20240307",
-            max_tokens=10,
-            messages=[{"role": "user", "content": prompt}]
-        )
-        return max(0.0, min(1.0, float(response.content[0].text.strip())))
-    except Exception:
-        return 0.5
-
-
-def score_faithfulness(answer: str, contexts: List[str]) -> float:
-    """Are all claims in the answer supported by the context?"""
-    if not contexts:
-        return 0.5
-    context_text = "\n\n".join(contexts)[:2000]
-    return call_claude_score(
-        f"Rate how faithful this answer is to the context.\n"
-        f"0 = answer contains unsupported claims, 1 = every claim is supported by context.\n"
-        f"Context: {context_text}\nAnswer: {answer}\n"
-        f"Return only a decimal number between 0 and 1."
-    )
-
-
-def score_answer_relevancy(question: str, answer: str) -> float:
-    """Does the answer actually address what was asked?"""
-    return call_claude_score(
-        f"Rate how well this answer addresses the question.\n"
-        f"0 = answer is off-topic, 1 = answer fully addresses the question.\n"
-        f"Question: {question}\nAnswer: {answer}\n"
-        f"Return only a decimal number between 0 and 1."
-    )
-
-
-def score_context_precision(question: str, contexts: List[str]) -> float:
-    """Are the retrieved chunks relevant to the question?"""
-    if not contexts:
-        return 0.0
-    scores = []
-    for ctx in contexts:
-        scores.append(call_claude_score(
-            f"Rate how relevant this retrieved chunk is to the question.\n"
-            f"0 = irrelevant, 1 = highly relevant.\n"
-            f"Question: {question}\nChunk: {ctx[:500]}\n"
-            f"Return only a decimal number between 0 and 1."
-        ))
-        time.sleep(0.3)
-    return round(sum(scores) / len(scores), 3) if scores else 0.0
-
-# ── MAIN EVALUATION ────────────────────────────────────────────────────────
-if __name__ == "__main__":
-    with open("articles.json") as f:
-        articles = json.load(f)
+    articles = load_articles(args.articles)
 
     print("=" * 55)
     print("RAG PIPELINE EVALUATION")
     print("=" * 55)
 
     print("\nBuilding vector stores...")
-    c1 = build_collection("naive_rag",      articles, chunk_size=500,  chunk_overlap=0)
-    c2 = build_collection("optimized_rag",  articles, chunk_size=1000, chunk_overlap=200)
-    c3 = build_collection("multiquery_rag", articles, chunk_size=1000, chunk_overlap=200)
+    configs = []
+    for key in args.configs:
+        preset = CONFIG_PRESETS[key]
+        collection = build_collection(
+            f"{key}_rag", articles,
+            chunk_size=preset["chunk_size"],
+            chunk_overlap=preset["chunk_overlap"],
+            persist=persist,
+        )
+        configs.append((key, preset, collection))
 
-    CONFIGS = [
-        ("Config 1 - Naive",      c1, 3, False),
-        ("Config 2 - Optimized",  c2, 5, False),
-        ("Config 3 - MultiQuery", c3, 5, True),
-    ]
-
-    print(f"\nRunning {len(TEST_QUESTIONS)} questions × 3 configs = {len(TEST_QUESTIONS)*3} evaluations\n")
+    total = len(questions) * len(configs)
+    print(f"\nRunning {len(questions)} questions × {len(configs)} configs "
+          f"= {total} evaluations\n")
 
     results = []
-    total = len(TEST_QUESTIONS) * len(CONFIGS)
     count = 0
-
-    for i, question in enumerate(TEST_QUESTIONS):
-        print(f"Q{i+1}/{len(TEST_QUESTIONS)}: {question}")
-        for config_name, collection, k, use_mq in CONFIGS:
+    for i, question in enumerate(questions):
+        print(f"Q{i+1}/{len(questions)}: {question}")
+        for key, preset, collection in configs:
             count += 1
             start = time.time()
-            chunks = multi_query_retrieve(collection, question, k) if use_mq else retrieve(collection, question, k)
+            chunks = run_retrieval(collection, question, preset["k"],
+                                   strategy=preset["retrieval"])
             answer = generate(question, chunks)
             latency = round(time.time() - start, 2)
 
@@ -206,9 +106,12 @@ if __name__ == "__main__":
             r_score = score_answer_relevancy(question, answer)
             time.sleep(0.3)
             p_score = score_context_precision(question, chunks)
+            time.sleep(0.3)
+            c_score = score_answer_correctness(question, answer, chunks)
 
             results.append({
-                "config": config_name,
+                "config": preset["label"],
+                "config_key": key,
                 "question": question,
                 "answer": answer,
                 "contexts": " ||| ".join(chunks),
@@ -216,20 +119,24 @@ if __name__ == "__main__":
                 "faithfulness": f_score,
                 "answer_relevancy": r_score,
                 "context_precision": p_score,
+                "answer_correctness": c_score,
             })
 
-            print(f"  [{count}/{total}] {config_name}: "
-                  f"faith={f_score:.2f}  rel={r_score:.2f}  prec={p_score:.2f}  ({latency}s)")
+            print(f"  [{count}/{total}] {preset['label']}: "
+                  f"faith={f_score:.2f}  rel={r_score:.2f}  prec={p_score:.2f}  "
+                  f"corr={c_score:.2f}  ({latency}s)")
             time.sleep(0.5)
 
     df = pd.DataFrame(results)
-    df.to_csv("evaluation_results.csv", index=False)
+    df.to_csv(args.output, index=False)
 
     print("\n" + "=" * 55)
     print("RESULTS SUMMARY (mean across all questions)")
     print("=" * 55)
-    summary = df.groupby("config")[
-        ["faithfulness", "answer_relevancy", "context_precision", "latency"]
-    ].mean().round(3)
+    summary = df.groupby("config")[METRIC_COLUMNS].mean().round(3)
     print(summary.to_string())
-    print("\nFull results saved to evaluation_results.csv")
+    print(f"\nFull results saved to {args.output}")
+
+
+if __name__ == "__main__":
+    main()
